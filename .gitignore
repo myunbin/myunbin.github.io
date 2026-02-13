@@ -1,5 +1,2 @@
-# 빌드 결과물 (GitHub Actions가 gh-pages 브랜치에 배포함)
-/docs
-
 # 로컬에서 사용하던 public (이제 docs 사용)
 /public
