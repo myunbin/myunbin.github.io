@@ -1,5 +1,7 @@
-# GitHub Actions 배포 시 자동으로 덮어씁니다. 로컬 미리보기는 hugo server --baseURL "http://localhost:1313/"
-baseURL: "https://YOUR_USERNAME.github.io/"
+# GitHub Pages는 반드시 'Deploy from a branch' → main → /docs 로 설정하세요.
+# 로컬 미리보기: hugo server --baseURL "http://localhost:1313/"
+baseURL: "https://myunbin.github.io/"
+publishDir: docs
 languageCode: "ko-kr"
 title: "Researcher"
 
