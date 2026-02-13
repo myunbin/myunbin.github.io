@@ -1,0 +1,2 @@
+{{ $latex := trim ((.Get 0) | default .Inner) " \n\r\t" | replaceRE `\s+` " " }}
+<span class="math-render math-inline" data-latex="{{ replace $latex `"` `&quot;` }}"></span>

@@ -1,0 +1,15 @@
+# GitHub Actions 배포 시 자동으로 덮어씁니다. 로컬 미리보기는 hugo server --baseURL "http://localhost:1313/"
+baseURL: "https://YOUR_USERNAME.github.io/"
+languageCode: "ko-kr"
+title: "Researcher"
+
+# 메인 페이지에 표시할 내용은 content/_index.md front matter에서 설정
+params:
+  description: "Researcher personal page"
+  assetVersion: "2"
+  footerName: "Hyunbin Kim"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
