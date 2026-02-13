@@ -1,80 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/</link><description>Recent content on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post for test</title><link>https://myunbin.github.io/posts/first-post/</link><pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/first-post/</guid><description>&lt;!-- 
-이것은 예시 게시물입니다. `content/posts/` 폴더에 마크다운 파일을 추가하면 Post 탭에서 목록으로 보이고, 클릭 시 글이 열립니다.
-
-수식도 쓸 수 있습니다.
-
-- **인라인**: $E = mc^2$ 또는 shortcode: 
-&lt;span class="math-render math-inline" data-latex="E = mc^2"&gt;&lt;/span&gt;
-
-- **블록** (underscore 등이 있는 복잡한 수식은 shortcode 권장):
-
-
-&lt;div class="math-render math-block" data-latex="\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}"&gt;&lt;/div&gt;
-
-
-일반 마크다운에서는 `$...$`(인라인), `$$...$$`(블록)을 쓰면 됩니다. 수식 안에 `_`가 있으면 마크다운이 강조로 해석할 수 있어, 그럴 때는 `
-&lt;span class="math-render math-inline" data-latex="..."&gt;&lt;/span&gt;
-` 또는 `
-&lt;div class="math-render math-block" data-latex="..."&gt;&lt;/div&gt;
-` shortcode를 쓰세요.
- --&gt;
-&lt;p&gt;Testing,&lt;/p&gt;</description></item><item><title>Activities and Projects</title><link>https://myunbin.github.io/act/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/act/</guid><description>&lt;h4 id="competitive-programming"&gt;Competitive Programming&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Union of Clubs for Programming Contest (&lt;a href="https://ucpc.me/"&gt;UCPC&lt;/a&gt;) &lt;em&gt;(Jan. 25 – Sep. 25)&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Vice President&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://shake.codes/"&gt;shake!&lt;/a&gt; &lt;em&gt;(Sep. {22-25} - Jan. {23-26})&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Director, Problem Setter&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ajou Programming Contest (&lt;a href="https://shake.codes/apc"&gt;APC&lt;/a&gt;) &lt;em&gt;(Mar. {22-25} - May. {22-25})&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Director, Problem Setter&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;International Collegiate Programming Contest (&lt;a href="https://icpc.global/"&gt;ICPC&lt;/a&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Honorable mention&lt;/em&gt;, 2025 ICPC {Seoul, Yokohama} Regional&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Honor&lt;/em&gt;, 2024 ICPC {Seoul, Jakarta} Regional&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Samsung Collegiate Programming Cup (&lt;a href="https://research.samsung.com/scpc"&gt;SCPC&lt;/a&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Finalist&lt;/em&gt;, 2023 SCPC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="internships"&gt;Internships&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;NetSys Lab. (Prof. Younghoon Kim) &lt;em&gt;(Mar. 25 - Sep. 25)&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Undergraduate Internship&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Education</title><link>https://myunbin.github.io/education/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/education/</guid><description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;M.S.&lt;/strong&gt; in School of Computing, KAIST (Mar. 26 - Present)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;B.S.&lt;/strong&gt; in Software and Computer Engineering, Ajou University (Mar. 19 - Feb. 26)
-&lt;ul&gt;
-&lt;li&gt;Graduated with &lt;em&gt;highest honor(1st)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Distinguished Graduate Award&lt;/em&gt;, recognized for distinguished external achievements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Experience</title><link>https://myunbin.github.io/experience/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/experience/</guid><description/></item><item><title>Publications</title><link>https://myunbin.github.io/publications/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/publications/</guid><description>&lt;h3 id="international-publications"&gt;International Publications&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;In progress :)&lt;/p&gt;
-&lt;h3 id="domestic-publications"&gt;Domestic Publications&lt;/h3&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Online Approaches for Abelian Duplication in Strings : Design and Applications&lt;/strong&gt;&lt;br&gt;
-Hyunbin Kim, Dajung Cho&lt;br&gt;
-&lt;em&gt;Korea Conference on Software Engineering, 2025 (KCSE &amp;lsquo;25)&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Algorithms for Searching Maximum-Length Abelian Duplications in Strings&lt;/strong&gt;&lt;br&gt;
-Hyunbin Kim, Dajung Cho&lt;br&gt;
-&lt;em&gt;KIISE Transactions on Computing Practices, 2025 (KTCP &amp;lsquo;25)&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Abelian duplications on strings and string searching algorithms&lt;/strong&gt;&lt;br&gt;
-Hyunbin Kim, Chiwook Ahn, Dajung Cho&lt;br&gt;
-&lt;em&gt;Korea Computer Congress, 2024 (KCC &amp;lsquo;24) &lt;strong&gt;(Excellent Paper Award)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Research Interest</title><link>https://myunbin.github.io/research_interest/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/research_interest/</guid><description>&lt;p&gt;Compiler, Programming Language&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hyunbin Kim, 김현빈</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Hyunbin Kim, 김현빈</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post for test</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;!-- &#xA;이것은 예시 게시물입니다. `content/posts/` 폴더에 마크다운 파일을 추가하면 Post 탭에서 목록으로 보이고, 클릭 시 글이 열립니다.&#xA;&#xA;수식도 쓸 수 있습니다.&#xA;&#xA;- **인라인**: $E = mc^2$ 또는 shortcode: &#xA;&lt;span class=&#34;math-render math-inline&#34; data-latex=&#34;E = mc^2&#34;&gt;&lt;/span&gt;&#xA;&#xA;- **블록** (underscore 등이 있는 복잡한 수식은 shortcode 권장):&#xA;&#xA;&#xA;&lt;div class=&#34;math-render math-block&#34; data-latex=&#34;\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}&#34;&gt;&lt;/div&gt;&#xA;&#xA;&#xA;일반 마크다운에서는 `$...$`(인라인), `$$...$$`(블록)을 쓰면 됩니다. 수식 안에 `_`가 있으면 마크다운이 강조로 해석할 수 있어, 그럴 때는 `&#xA;&lt;span class=&#34;math-render math-inline&#34; data-latex=&#34;...&#34;&gt;&lt;/span&gt;&#xA;` 또는 `&#xA;&lt;div class=&#34;math-render math-block&#34; data-latex=&#34;...&#34;&gt;&lt;/div&gt;&#xA;` shortcode를 쓰세요.&#xA; --&gt;&#xA;&lt;p&gt;Testing,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activities and Projects</title>
+      <link>http://localhost:1313/act/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/act/</guid>
+      <description>&lt;h4 id=&#34;competitive-programming&#34;&gt;Competitive Programming&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Union of Clubs for Programming Contest (&lt;a href=&#34;https://ucpc.me/&#34;&gt;UCPC&lt;/a&gt;) &lt;em&gt;(Jan. 25 – Sep. 25)&lt;/em&gt;&lt;br&gt;&#xA;&lt;em&gt;Vice President&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://shake.codes/&#34;&gt;shake!&lt;/a&gt; &lt;em&gt;(Sep. {22-25} - Jan. {23-26})&lt;/em&gt;&lt;br&gt;&#xA;&lt;em&gt;Director, Problem Setter&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ajou Programming Contest (&lt;a href=&#34;https://shake.codes/apc&#34;&gt;APC&lt;/a&gt;) &lt;em&gt;(Mar. {22-25} - May. {22-25})&lt;/em&gt;&lt;br&gt;&#xA;&lt;em&gt;Director, Problem Setter&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;International Collegiate Programming Contest (&lt;a href=&#34;https://icpc.global/&#34;&gt;ICPC&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Honorable mention&lt;/em&gt;, 2025 ICPC {Seoul, Yokohama} Regional&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Honor&lt;/em&gt;, 2024 ICPC {Seoul, Jakarta} Regional&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Samsung Collegiate Programming Cup (&lt;a href=&#34;https://research.samsung.com/scpc&#34;&gt;SCPC&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Finalist&lt;/em&gt;, 2023 SCPC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;internships&#34;&gt;Internships&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;NetSys Lab. (Prof. Younghoon Kim) &lt;em&gt;(Mar. 25 - Sep. 25)&lt;/em&gt;&lt;br&gt;&#xA;&lt;em&gt;Undergraduate Internship&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/education/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/education/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;M.S.&lt;/strong&gt; in School of Computing, KAIST (Mar. 26 - Present)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;B.S.&lt;/strong&gt; in Software and Computer Engineering, Ajou University (Mar. 19 - Feb. 26)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Graduated with &lt;em&gt;highest honor(1st)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Distinguished Graduate Award&lt;/em&gt;, recognized for distinguished external achievements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:1313/experience/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;h3 id=&#34;international-publications&#34;&gt;International Publications&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;In progress :)&lt;/p&gt;&#xA;&lt;h3 id=&#34;domestic-publications&#34;&gt;Domestic Publications&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Online Approaches for Abelian Duplication in Strings : Design and Applications&lt;/strong&gt;&lt;br&gt;&#xA;Hyunbin Kim, Dajung Cho&lt;br&gt;&#xA;&lt;em&gt;Korea Conference on Software Engineering, 2025 (KCSE &amp;lsquo;25)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Algorithms for Searching Maximum-Length Abelian Duplications in Strings&lt;/strong&gt;&lt;br&gt;&#xA;Hyunbin Kim, Dajung Cho&lt;br&gt;&#xA;&lt;em&gt;KIISE Transactions on Computing Practices, 2025 (KTCP &amp;lsquo;25)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Abelian duplications on strings and string searching algorithms&lt;/strong&gt;&lt;br&gt;&#xA;Hyunbin Kim, Chiwook Ahn, Dajung Cho&lt;br&gt;&#xA;&lt;em&gt;Korea Computer Congress, 2024 (KCC &amp;lsquo;24) &lt;strong&gt;(Excellent Paper Award)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research Interest</title>
+      <link>http://localhost:1313/research_interest/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research_interest/</guid>
+      <description>&lt;p&gt;Compiler, Programming Language, Algorithm&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

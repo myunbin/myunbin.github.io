@@ -1,21 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/posts/</link><description>Recent content in Post on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post for test</title><link>https://myunbin.github.io/posts/first-post/</link><pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/first-post/</guid><description>&lt;!-- 
-이것은 예시 게시물입니다. `content/posts/` 폴더에 마크다운 파일을 추가하면 Post 탭에서 목록으로 보이고, 클릭 시 글이 열립니다.
-
-수식도 쓸 수 있습니다.
-
-- **인라인**: $E = mc^2$ 또는 shortcode: 
-&lt;span class="math-render math-inline" data-latex="E = mc^2"&gt;&lt;/span&gt;
-
-- **블록** (underscore 등이 있는 복잡한 수식은 shortcode 권장):
-
-
-&lt;div class="math-render math-block" data-latex="\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}"&gt;&lt;/div&gt;
-
-
-일반 마크다운에서는 `$...$`(인라인), `$$...$$`(블록)을 쓰면 됩니다. 수식 안에 `_`가 있으면 마크다운이 강조로 해석할 수 있어, 그럴 때는 `
-&lt;span class="math-render math-inline" data-latex="..."&gt;&lt;/span&gt;
-` 또는 `
-&lt;div class="math-render math-block" data-latex="..."&gt;&lt;/div&gt;
-` shortcode를 쓰세요.
- --&gt;
-&lt;p&gt;Testing,&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Hyunbin Kim, 김현빈</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Post on Hyunbin Kim, 김현빈</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post for test</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;!-- &#xA;이것은 예시 게시물입니다. `content/posts/` 폴더에 마크다운 파일을 추가하면 Post 탭에서 목록으로 보이고, 클릭 시 글이 열립니다.&#xA;&#xA;수식도 쓸 수 있습니다.&#xA;&#xA;- **인라인**: $E = mc^2$ 또는 shortcode: &#xA;&lt;span class=&#34;math-render math-inline&#34; data-latex=&#34;E = mc^2&#34;&gt;&lt;/span&gt;&#xA;&#xA;- **블록** (underscore 등이 있는 복잡한 수식은 shortcode 권장):&#xA;&#xA;&#xA;&lt;div class=&#34;math-render math-block&#34; data-latex=&#34;\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}&#34;&gt;&lt;/div&gt;&#xA;&#xA;&#xA;일반 마크다운에서는 `$...$`(인라인), `$$...$$`(블록)을 쓰면 됩니다. 수식 안에 `_`가 있으면 마크다운이 강조로 해석할 수 있어, 그럴 때는 `&#xA;&lt;span class=&#34;math-render math-inline&#34; data-latex=&#34;...&#34;&gt;&lt;/span&gt;&#xA;` 또는 `&#xA;&lt;div class=&#34;math-render math-block&#34; data-latex=&#34;...&#34;&gt;&lt;/div&gt;&#xA;` shortcode를 쓰세요.&#xA; --&gt;&#xA;&lt;p&gt;Testing,&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

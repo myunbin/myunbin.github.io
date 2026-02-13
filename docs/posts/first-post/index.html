@@ -1,4 +1,105 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>First Post for test | Hyunbin Kim, 김현빈</title><meta name=description content="Researcher personal page"><link rel=stylesheet href="/css/style.css?v=2"><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css crossorigin=anonymous></head><body><div class=page-wrap><nav class=top-nav><a href=/>Home</a>
-<a href=/posts/>Post</a></nav><main class=main><article class=post-single><header class=post-header><h1 class=post-title>First Post for test</h1><time class=post-date datetime=2026-02-13>2026. 2. 13</time></header><div class="post-content content"><p>Testing,</p><p>Hello. 안녕하세요. $\sum_{n=1}^{10}f(n)$</p><p>$$
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First Post for test | Hyunbin Kim, 김현빈</title>
+  <meta name="description" content="Researcher personal page">
+  <link rel="stylesheet" href="/css/style.css?v=2">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+</head>
+<body>
+  <div class="page-wrap">
+    <nav class="top-nav">
+  <a href="/">Home</a>
+  <a href="/posts/">Post</a>
+</nav>
+
+    <main class="main">
+      
+  <article class="post-single">
+    <header class="post-header">
+      <h1 class="post-title">First Post for test</h1>
+      <time class="post-date" datetime="2026-02-13">2026. 2. 13</time>
+    </header>
+    <div class="post-content content">
+      <!-- 
+이것은 예시 게시물입니다. `content/posts/` 폴더에 마크다운 파일을 추가하면 Post 탭에서 목록으로 보이고, 클릭 시 글이 열립니다.
+
+수식도 쓸 수 있습니다.
+
+- **인라인**: $E = mc^2$ 또는 shortcode: 
+<span class="math-render math-inline" data-latex="E = mc^2"></span>
+
+- **블록** (underscore 등이 있는 복잡한 수식은 shortcode 권장):
+
+
+<div class="math-render math-block" data-latex="\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}"></div>
+
+
+일반 마크다운에서는 `$...$`(인라인), `$$...$$`(블록)을 쓰면 됩니다. 수식 안에 `_`가 있으면 마크다운이 강조로 해석할 수 있어, 그럴 때는 `
+<span class="math-render math-inline" data-latex="..."></span>
+` 또는 `
+<div class="math-render math-block" data-latex="..."></div>
+` shortcode를 쓰세요.
+ -->
+<p>Testing,</p>
+<p>Hello. 안녕하세요. $\sum_{n=1}^{10}f(n)$</p>
+<p>$$
 f(x)=1+\sin x
-$$</p><p>Good bye.</p></div></article></main></div><footer class=footer><p>© 2026 Hyunbin Kim</p></footer><script>(function(){var e,t=document.querySelector(".main")||document.body;function n(){typeof renderMathInElement=="function"&&renderMathInElement(t,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\[",right:"\\]",display:!0},{left:"\\(",right:"\\)",display:!1}],throwOnError:!1,ignoredTags:["script","noscript","style"]}),typeof katex!="undefined"&&t.querySelectorAll(".math-render").forEach(function(e){var t=e.getAttribute("data-latex");if(t)try{katex.render(t,e,{displayMode:e.classList.contains("math-block"),throwOnError:!1})}catch{}})}function s(){var e=document.createElement("script");e.src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js",e.crossOrigin="anonymous",e.onload=n,document.body.appendChild(e)}e=document.createElement("script"),e.src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js",e.crossOrigin="anonymous",e.onload=s,document.body.appendChild(e)})()</script></body></html>
+$$</p>
+<p>Good bye.</p>
+
+    </div>
+  </article>
+
+    </main>
+  </div>
+  
+  <footer class="footer">
+    <p>© 2026 Hyunbin Kim</p>
+  </footer>
+  
+  <script>
+    (function() {
+      var root = document.querySelector(".main") || document.body;
+      function run() {
+        if (typeof renderMathInElement === "function") {
+          renderMathInElement(root, {
+            delimiters: [
+              { left: "$$", right: "$$", display: true },
+              { left: "$", right: "$", display: false },
+              { left: "\\[", right: "\\]", display: true },
+              { left: "\\(", right: "\\)", display: false }
+            ],
+            throwOnError: false,
+            ignoredTags: ["script", "noscript", "style"]
+          });
+        }
+        if (typeof katex !== "undefined") {
+          root.querySelectorAll(".math-render").forEach(function(el) {
+            var latex = el.getAttribute("data-latex");
+            if (latex) {
+              try {
+                katex.render(latex, el, { displayMode: el.classList.contains("math-block"), throwOnError: false });
+              } catch (err) {}
+            }
+          });
+        }
+      }
+      function loadAutoRender() {
+        var ar = document.createElement("script");
+        ar.src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js";
+        ar.crossOrigin = "anonymous";
+        ar.onload = run;
+        document.body.appendChild(ar);
+      }
+      var s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js";
+      s.crossOrigin = "anonymous";
+      s.onload = loadAutoRender;
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+</html>
