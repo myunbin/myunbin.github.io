@@ -15,7 +15,7 @@
 }
 
 html {
-  font-size: 10pt;
+  font-size: 12pt; /* 10pt × 1.2 */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -43,7 +43,7 @@ body {
   margin: 0 0 1.5rem;
   padding: 0;
   font-family: var(--font-main);
-  font-size: 9pt;
+  font-size: 11pt; /* 9pt × 1.2 */
 }
 
 .top-nav a {
@@ -62,13 +62,13 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 18pt;
+  font-size: 22pt; /* 18pt × 1.2 */
   margin: 0 0 0.5rem;
   letter-spacing: -0.02em;
 }
 
 h2 {
-  font-size: 11pt;
+  font-size: 13pt; /* 11pt × 1.2 */
   margin: 2.5rem 0 0.75rem;
   color: var(--text);
   font-weight: 600;
@@ -79,7 +79,7 @@ h2:first-of-type {
 }
 
 h3 {
-  font-size: 10pt;
+  font-size: 12pt; /* 10pt × 1.2 */
   margin: 1rem 0 0.35rem;
   font-weight: 600;
 }
@@ -139,7 +139,7 @@ li {
 
 .contacts {
   margin-top: 0.5rem;
-  font-size: 9pt;
+  font-size: 11pt; /* 9pt × 1.2 */
 }
 
 .contacts a {
@@ -152,7 +152,7 @@ li {
 
 .intro {
   margin-bottom: 0.5rem;
-  font-size: 9pt;
+  font-size: 11pt; /* 9pt × 1.2 */
 }
 
 .section {
@@ -160,7 +160,7 @@ li {
 }
 
 .section .content {
-  font-size: 9pt;
+  font-size: 11pt; /* 9pt × 1.2 */
 }
 
 .publications ul {
@@ -176,7 +176,7 @@ li {
   max-width: 680px;
   margin: 0.5rem auto 0;
   padding-top: 0;
-  font-size: 8pt;
+  font-size: 10pt; /* 8pt × 1.2 */
   color: var(--text-muted);
   text-align: center;
 }
@@ -209,7 +209,7 @@ li {
 }
 
 .post-date {
-  font-size: 9pt;
+  font-size: 11pt; /* 9pt × 1.2 */
   color: var(--text-muted);
   white-space: nowrap;
 }
@@ -223,7 +223,7 @@ li {
 }
 
 .post-single .post-date {
-  font-size: 9pt;
+  font-size: 11pt; /* 9pt × 1.2 */
   color: var(--text-muted);
 }
 
