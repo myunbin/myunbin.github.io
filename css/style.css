@@ -1,0 +1,254 @@
+/* Researcher page – centered, minimal, Helvetica + Apple SD Gothic Neo */
+
+:root {
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --border: #e0e0e0;
+  --bg: #fff;
+  --link: #2563eb;
+  --link-hover: #1d4ed8;
+  --font-main: Helvetica, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* 1rem = 16px */
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem 4rem;
+  font-family: var(--font-main);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.32;
+}
+
+.page-wrap {
+  max-width: 816px; /* 680 × 1.2 */
+  margin: 0 auto;
+  border: 2px solid #000;
+  padding: 1.5rem 1.5rem 2rem;
+}
+
+.main {
+  margin: 0;
+}
+
+.top-nav {
+  margin: 0 0 1.5rem;
+  padding: 0;
+  font-family: var(--font-main);
+  font-size: 0.75rem; /* 12px */
+}
+
+.top-nav a {
+  margin-right: 1.25rem;
+  color: var(--text-muted);
+}
+
+.top-nav a:hover {
+  color: var(--link);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-main);
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 1.5rem; /* 24px */
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 0.9375rem; /* 15px, 기존 11pt */
+  margin: 2.5rem 0 0.75rem;
+  color: var(--text);
+  font-weight: 600;
+}
+
+h2:first-of-type {
+  margin-top: 1.5rem;
+}
+
+h3 {
+  font-size: 0.8125rem; /* 13px, 기존 10pt */
+  margin: 1rem 0 0.35rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 0.75rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+ul, ol {
+  margin: 0 0 0.75rem;
+  padding-left: 1.4rem;
+}
+
+/* 첫 번째 리스트와 한 탭 들어간 sublisting 사이 간격 */
+ul ul, ul ol, ol ul, ol ol {
+  margin-top: 0.3rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+.content li p,
+.intro li p {
+  margin-bottom: 0.4rem;
+}
+.content li p:last-child,
+.intro li p:last-child {
+  margin-bottom: 0;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+.profile-name {
+  margin-bottom: 0.25rem;
+}
+
+.contacts {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.contacts a {
+  margin: 0 0.5rem;
+}
+
+.contacts a:first-child {
+  margin-left: 0;
+}
+
+.intro {
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.section {
+  margin-top: 0.5rem;
+}
+
+.section .content {
+  font-size: 0.75rem;
+}
+
+.publications ul {
+  list-style: disc;
+  padding-left: 1.4rem;
+}
+
+.publications li {
+  margin-bottom: 0.85rem;
+}
+
+.footer {
+  max-width: 816px; /* 680 × 1.2 */
+  margin: 0.5rem auto 0;
+  padding-top: 0;
+  font-size: 0.625rem; /* 10px, 기존 8pt */
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.page-title {
+  margin-bottom: 1rem;
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.post-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-item a {
+  flex: 1;
+}
+
+.post-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.post-single .post-header {
+  margin-bottom: 1.5rem;
+}
+
+.post-single .post-title {
+  margin-bottom: 0.35rem;
+}
+
+.post-single .post-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.post-content {
+  font-family: var(--font-main);
+}
+
+/* 활동기한·연도만 박스 오른쪽 끝에 붙이기 ({{< date "Jan. 25 – Sep. 25" >}}) */
+.content > ul > li,
+.content > ol > li {
+  position: relative;
+  padding-right: 14em;
+}
+.date-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.katex-display {
+  margin: 0.75rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
