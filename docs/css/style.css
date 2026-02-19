@@ -247,6 +247,20 @@ li {
   white-space: nowrap;
 }
 
+/* 모바일: 날짜 때문에 왼쪽 텍스트 영역이 좁아지지 않도록, 날짜만 다음 줄 오른쪽으로 */
+@media (max-width: 600px) {
+  .content > ul > li,
+  .content > ol > li {
+    padding-right: 0;
+  }
+  .date-right {
+    position: static;
+    display: block;
+    text-align: right;
+    margin-top: 0.15rem;
+  }
+}
+
 .katex-display {
   margin: 0.75rem 0;
   overflow-x: auto;
