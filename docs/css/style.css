@@ -15,7 +15,7 @@
 }
 
 html {
-  font-size: 12pt; /* 10pt × 1.2 */
+  font-size: 16px; /* 1rem = 16px */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .page-wrap {
-  max-width: 680px;
+  max-width: 816px; /* 680 × 1.2 */
   margin: 0 auto;
   border: 2px solid #000;
   padding: 1.5rem 1.5rem 2rem;
@@ -43,7 +43,7 @@ body {
   margin: 0 0 1.5rem;
   padding: 0;
   font-family: var(--font-main);
-  font-size: 11pt; /* 9pt × 1.2 */
+  font-size: 0.75rem; /* 12px */
 }
 
 .top-nav a {
@@ -62,13 +62,13 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 22pt; /* 18pt × 1.2 */
+  font-size: 1.5rem; /* 24px */
   margin: 0 0 0.5rem;
   letter-spacing: -0.02em;
 }
 
 h2 {
-  font-size: 13pt; /* 11pt × 1.2 */
+  font-size: 0.9375rem; /* 15px, 기존 11pt */
   margin: 2.5rem 0 0.75rem;
   color: var(--text);
   font-weight: 600;
@@ -79,7 +79,7 @@ h2:first-of-type {
 }
 
 h3 {
-  font-size: 12pt; /* 10pt × 1.2 */
+  font-size: 0.8125rem; /* 13px, 기존 10pt */
   margin: 1rem 0 0.35rem;
   font-weight: 600;
 }
@@ -139,7 +139,7 @@ li {
 
 .contacts {
   margin-top: 0.5rem;
-  font-size: 11pt; /* 9pt × 1.2 */
+  font-size: 0.75rem;
 }
 
 .contacts a {
@@ -152,7 +152,7 @@ li {
 
 .intro {
   margin-bottom: 0.5rem;
-  font-size: 11pt; /* 9pt × 1.2 */
+  font-size: 0.75rem;
 }
 
 .section {
@@ -160,7 +160,7 @@ li {
 }
 
 .section .content {
-  font-size: 11pt; /* 9pt × 1.2 */
+  font-size: 0.75rem;
 }
 
 .publications ul {
@@ -173,10 +173,10 @@ li {
 }
 
 .footer {
-  max-width: 680px;
+  max-width: 816px; /* 680 × 1.2 */
   margin: 0.5rem auto 0;
   padding-top: 0;
-  font-size: 10pt; /* 8pt × 1.2 */
+  font-size: 0.625rem; /* 10px, 기존 8pt */
   color: var(--text-muted);
   text-align: center;
 }
@@ -209,7 +209,7 @@ li {
 }
 
 .post-date {
-  font-size: 11pt; /* 9pt × 1.2 */
+  font-size: 0.75rem;
   color: var(--text-muted);
   white-space: nowrap;
 }
@@ -223,12 +223,28 @@ li {
 }
 
 .post-single .post-date {
-  font-size: 11pt; /* 9pt × 1.2 */
+  font-size: 0.75rem;
   color: var(--text-muted);
 }
 
 .post-content {
   font-family: var(--font-main);
+}
+
+/* 활동기한·연도만 박스 오른쪽 끝에 붙이기 ({{< date "Jan. 25 – Sep. 25" >}}) */
+.content > ul > li,
+.content > ol > li {
+  position: relative;
+  padding-right: 14em;
+}
+.date-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-style: italic;
+  white-space: nowrap;
 }
 
 .katex-display {
