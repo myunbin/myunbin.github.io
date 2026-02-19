@@ -27,7 +27,7 @@
       <link>http://localhost:1313/education/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/education/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;M.S.&lt;/strong&gt; in School of Computing, KAIST &lt;span class=&#34;date-right&#34;&gt;Mar. 26 - Present&lt;/span&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;B.S.&lt;/strong&gt; in Software and Computer Engineering, Ajou University &lt;span class=&#34;date-right&#34;&gt;Mar. 19 - Feb. 26&lt;/span&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Graduated with &lt;em&gt;highest honor(1st)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Distinguished Graduate Award&lt;/em&gt;, recognized for distinguished external achievements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;M.S.&lt;/strong&gt; in School of Computing, KAIST &lt;span class=&#34;date-right&#34;&gt;Mar. 26 - Present&lt;/span&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;B.S.&lt;/strong&gt; in Software and Computer Engineering, Ajou University &lt;span class=&#34;date-right&#34;&gt;Mar. 19 - Feb. 26&lt;/span&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Graduated with &lt;em&gt;highest honor(1st)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Distinguished Graduate Award(아주인상)&lt;/em&gt;, recognized for distinguished external achievements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Experience</title>
@@ -48,7 +48,7 @@
       <link>http://localhost:1313/research_interest/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research_interest/</guid>
-      <description>&lt;p&gt;Compiler, Programming Language, Algorithm&lt;/p&gt;</description>
+      <description>&lt;p&gt;Compiler, Programming Languages, Algorithm&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
