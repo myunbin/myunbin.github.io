@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write   # gh-pages 브랜치 푸시에 필요 (read 포함)
   pages: write
   id-token: write
 
