@@ -15,6 +15,6 @@ contacts:
   
 ---
 
-Master's student @[Prosys](https://prosys.kaist.ac.kr/) KAIST, advised by Prof. [Kihong Heo](https://kihongheo.kaist.ac.kr/).
+Master's student @[Prosys Lab](https://prosys.kaist.ac.kr/), KAIST. Advised by Prof. [Kihong Heo](https://kihongheo.kaist.ac.kr/).
 
 Contact me via email: hyunbin.kim [at] kaist.ac.kr
