@@ -206,6 +206,7 @@ li {
 
 .post-item a {
   flex: 1;
+  font-size: 0.75rem; /* 홈 본문과 동일한 크기 */
 }
 
 .post-date {
@@ -229,6 +230,7 @@ li {
 
 .post-content {
   font-family: var(--font-main);
+  font-size: 0.75rem; /* 본문과 동일한 크기 */
 }
 
 /* 활동기한·연도만 박스 오른쪽 끝에 붙이기 ({{< date "Jan. 25 – Sep. 25" >}}) */
