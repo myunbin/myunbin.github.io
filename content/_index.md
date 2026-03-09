@@ -11,7 +11,7 @@ contacts:
   - label: "[CV]"
     url: "https://github.com/myunbin/CV/blob/main/CV.pdf"
   - label: "[LinkedIn]"
-    url: "linkedin.com/in/hyunbin-kim-a1a41611a"
+    url: "https://linkedin.com/in/myunbin"
   
 ---
 
