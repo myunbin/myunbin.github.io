@@ -6,13 +6,20 @@
     <description>Recent content in Post on Hyunbin Kim, 김현빈</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>정적 분석기의 정적은 정적임</title>
+      <link>http://localhost:1313/posts/post2/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post2/</guid>
+      <description>&lt;p&gt;&lt;em&gt;본 글은 &amp;lt;CS524 Program Analysis&amp;gt;의 첫 번째 과제로 작성된 에세이이다.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;본 글은 정적 분석기(static analyzer)의 &amp;lsquo;정적&amp;rsquo;이 분석 방법의 성질일 뿐, 실제 기술의 작동 방식까지 정적이어서는 안 된다는 점을 논의한다. 산업 사례들은 정적 분석의 효과가 분석의 정교함뿐 아니라 개발자의 작업 흐름(workflow)과의 통합과 사용자와의 상호작용에 크게 좌우된다는 사실을 보여준다. 이를 바탕으로 본 글은 정적 분석을 포함한 소프트웨어 기술의 평가가 기존의 수학적 지표 중심 접근을 넘어 개발자의 이해 가능성, 수정 가능성, 신뢰성과 같은 인간 중심 요소를 함께 고려해야 한다고 주장한다. 궁극적으로 정적 분석기는 프로그램을 실행하지 않는다는 의미에서 정적이지만, 실제 개발 과정에서는 인간과 상호작용하며 능동적으로 개입하는 동적인 기술로 이해되어야 한다.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>연구를 여행하는 히치하이커를 위한 안내서</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>http://localhost:1313/posts/post1/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/post1/</guid>
       <description>&lt;p&gt;&lt;em&gt;내가 속한 연구실의 석사 과정생은 1-2주마다 글감을 궁리하고 이를 지면에 옮기는 과제가 주어진다. 논리적인 글을 작성하는 것에 익숙하지 않아 아직은 형편없는 실력이지만, 형편없음을 드러내는 부끄러움보다 점진적으로 발전하는 모습을 보여주고픈 마음이 앞서기에 원문을 옮길 예정이다.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;del&gt;마음이 바뀌면 지울지도 모른다. 아무도 안 볼 것 같기도 하고.&lt;/del&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;이 글은 연구에서 중요한 것은 해답을 찾는 일이 아니라 의미 있는 질문을 발견하고 정의하는 일이라는 관점을 살펴본다. &amp;lsquo;당신과 당신의 연구&amp;rsquo;와 &amp;lsquo;은하수를 여행하는 히치하이커를 위한 안내서&amp;rsquo;를 통해, 연구의 첫 단추는 중요한 문제를 찾아가는 과정이라는 점을 생각해 본다.&lt;/p&gt;</description>
     </item>
   </channel>
