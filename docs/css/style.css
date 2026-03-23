@@ -233,6 +233,11 @@ li {
   font-size: 0.75rem; /* 본문과 동일한 크기 */
 }
 
+.post-content p {
+  text-align: justify;
+  text-align-last: left;
+}
+
 /* 활동기한·연도만 박스 오른쪽 끝에 붙이기 ({{< date "Jan. 25 – Sep. 25" >}}) */
 .content > ul > li,
 .content > ol > li {
