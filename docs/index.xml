@@ -6,8 +6,15 @@
     <description>Recent content on Hyunbin Kim, 김현빈</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peep into Peephole Optimization</title>
+      <link>http://localhost:1313/posts/post4/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post4/</guid>
+      <description>&lt;p&gt;&lt;em&gt;내가 속한 연구실의 석사 과정생은 1-2주마다 글감을 궁리하고 이를 지면에 옮기는 과제가 주어진다. 논리적인 글을 작성하는 것에 익숙하지 않아 아직은 형편없는 실력이지만, 형편없음을 드러내는 부끄러움보다 점진적으로 발전하는 모습을 보여주고픈 마음이 앞서기에 원문을 옮길 예정이다.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;del&gt;마음이 바뀌면 지울지도 모른다. 아무도 안 볼 것 같기도 하고.&lt;/del&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;This article discusses peephole optimizations through refinement, motivated by the &lt;em&gt;TransOpt&lt;/em&gt; project. The compositionality of refinement explains why local rewrites preserve correctness, as each transformation reduces the set of possible behaviors without introducing new ones. Building on this perspective, the relationship between local correctness and optimization is further considered, raising the question of how true global optimality can be achieved beyond local rewrites.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>슬기로운 연구자 생활</title>
       <link>http://localhost:1313/posts/post3/</link>
