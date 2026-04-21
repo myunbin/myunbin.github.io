@@ -4,5 +4,5 @@ date: 2025-01-01
 draft: false
 ---
 
-Compilers, Programming Languages, Algorithms
+Compiler optimizations, Programming Languages, Algorithms
  
