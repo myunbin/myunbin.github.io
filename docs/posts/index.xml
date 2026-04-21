@@ -6,8 +6,15 @@
     <description>Recent content in Post on Hyunbin Kim, 김현빈</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>컴파일러 최적화를 최적화하기</title>
+      <link>http://localhost:1313/posts/post5/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post5/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;현재 컴파일러는 순서 매기기 문제(phase ordering problem)로 인해 전역 최적에 도달하기 어렵고, 그 결과 복잡한 규칙과 휴리스틱이 누적된 구조 및 유지보수 문제를 초래한다. 본 글은 이러한 한계를 바탕으로, 최적화 규칙의 자동 생성 및 검증과 최적화 적용 순서에 대한 탐색 효율화를 미래 컴파일러의 핵심 방향으로 제시한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;본 글은 성숙한 컴파일러에서 신생 컴파일러로 꼬마 최적화(peephole optimization)를 이식하는 프로젝트인 &lt;em&gt;Transopt&lt;/em&gt;에서 출발한 질문이다. 앞으로의 컴파일러 최적화는 어떤 형태여야 하는가?&lt;/p&gt;&#xA;&lt;p&gt;컴파일러 최적화는 순서 매기기 문제를 안고 살아간다. 임의의 프로그램에 대해 최적의 최적화 경로를 찾는 것은 NP-Hard 문제로, 해결이 불가능에 가깝다. 그 결과, LLVM과 같은 성숙한 컴파일러는 수많은 최적화 규칙과 휴리스틱이 누적된 구조를 가지고, 방대한 탐색 공간 속에서 전역이 아닌 국소 최적점에 머무를 가능성이 높다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Peep into Peephole Optimization</title>
       <link>http://localhost:1313/posts/post4/</link>
