@@ -1,0 +1,16 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>컴파일러 불협화음 | Hyunbin Kim, 김현빈</title><meta name=description content="Researcher personal page"><link rel=stylesheet href="/css/style.css?v=3"><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css crossorigin=anonymous></head><body><div class=page-wrap><nav class=top-nav><a href=/>Home</a>
+<a href=/posts/>Post</a></nav><main class=main><article class=post-single><header class=post-header><h1 class=post-title>컴파일러 불협화음</h1><time class=post-date datetime=2026-07-07>2026. 7. 7</time></header><div class="post-content content"><h3 id=abstract>Abstract</h3><p>꼬마 최적화(peephole optimization)는 컴파일러 중간단(mid-end)에서 재작성을 통해 프로그램 성능을 개선하는 핵심 기법이다.
+본 글은 중간단의 최적화 규칙이 컴파일러 뒷단(back-end)에 불리한 코드 형태를 만들어 성능 저하로 이어지는 사례를 서술한다.</p><h3 id=본문>본문</h3><p>꼬마 최적화는 주로 컴파일러의 중간단에서 국소적인 코드 패턴을 재작성하여 프로그램의 성능을 개선한다.
+그러나 중간단의 최적화가 컴파일러 뒷단의 동작을 고려하지 않아 예상치 못한 성능 저하가 발생하는 사례를 관찰했다.
+이는 중간 표현(Intermediate Representation)에서는 좋아 보이는 재작성 규칙이 실제 기계어에서는 비효율적인 코드로 이어질 수 있음을 보여준다.</p><p>첫 번째는 재작성이 뒷단의 레지스터 효율을 악화시킨 경우다.
+문제의 재작성 규칙은 $(A - B)+B \rightsquigarrow A$로, 불필요한 연산을 제거한다.
+원본 프로그램에서는 값 $\texttt{a}$로부터 $\texttt{x}=\texttt{a}-64$가 계산된다.
+이후 $\texttt{x}$가 여러 번 사용되고, 마지막에 $\texttt{y}=\texttt{x}+64$가 계산되어 저장($\texttt{store}$)된다.
+재작성에 의해 $\texttt{y}=(\texttt{a}-64)+64\rightsquigarrow\texttt{a}$가 되므로, 재작성 후 프로그램의 $\texttt{store}$ 연산에서는 $\texttt{y}$ 대신 $\texttt{a}$가 사용된다.
+결과적으로 값 $\texttt{a}$는 정의 이후 한참 뒤에 다시 필요해지고, 레지스터에 오래 유지되기 어려워져 스택 메모리 접근이 발생할 가능성이 커진다.</p><p>두 번째 사례는 재작성 후 CPU의 명령어 인출(instruction fetch) 효율이 떨어진 경우다.
+재작성으로 일부 명령어가 삭제되면, 뒤따르는 명령어들의 배치도 함께 바뀐다.
+그 결과 자주 실행되는 명령어가 하나의 캐시 라인(cache line) 안에 들어가지 못하고, 두 캐시 라인에 걸치게 되었다.
+CPU는 명령어를 캐시 라인 단위로 가져오므로, 경계에 걸친 명령어를 가져오기 위해서는 두 캐시 라인에 대한 참조가 필요하다.
+이로 인해 CPU의 명령어 인출 비용이 높아져 성능 저하가 발생한다.</p><p>두 사례는 중간 표현 수준에서 좋아 보이는 최적화가 실제 기계어 성능까지 보장하지 않음을 보여준다.
+이는 컴파일러를 중간단과 뒷단으로 나누어 독립적으로 최적화하는 현재 방식의 한계를 드러낸다.
+중간단과 뒷단을 함께 고려하는 종합적인 컴파일러 최적화 설계가 필요한 시점이다.</p></div></article></main></div><footer class=footer><p>© 2026 Hyunbin Kim</p></footer><script>(function(){var e,t=document.querySelector(".main")||document.body;function n(){typeof renderMathInElement=="function"&&renderMathInElement(t,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\[",right:"\\]",display:!0},{left:"\\(",right:"\\)",display:!1}],throwOnError:!1,ignoredTags:["script","noscript","style"]}),typeof katex!="undefined"&&t.querySelectorAll(".math-render").forEach(function(e){var t=e.getAttribute("data-latex");if(t)try{katex.render(t,e,{displayMode:e.classList.contains("math-block"),throwOnError:!1})}catch{}})}function s(){var e=document.createElement("script");e.src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js",e.crossOrigin="anonymous",e.onload=n,document.body.appendChild(e)}e=document.createElement("script"),e.src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js",e.crossOrigin="anonymous",e.onload=s,document.body.appendChild(e)})()</script></body></html>
