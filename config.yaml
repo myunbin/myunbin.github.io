@@ -8,7 +8,7 @@ title: "Hyunbin Kim, 김현빈"
 # 메인 페이지에 표시할 내용은 content/_index.md front matter에서 설정
 params:
   description: "Researcher personal page"
-  assetVersion: "2"
+  assetVersion: "3"
   footerName: "Hyunbin Kim"
 
 markup:

@@ -272,4 +272,11 @@ li {
   margin: 0.75rem 0;
   overflow-x: auto;
   overflow-y: hidden;
+  text-align: center;
+  text-align-last: center;
+}
+
+.math-block {
+  text-align: center;
+  text-align-last: center;
 }

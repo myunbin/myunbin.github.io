@@ -3,11 +3,6 @@ title: "Peep into Peephole Optimization"
 date: 2026-04-03
 draft: false
 ---
-
-*내가 속한 연구실의 석사 과정생은 1-2주마다 글감을 궁리하고 이를 지면에 옮기는 과제가 주어진다. 논리적인 글을 작성하는 것에 익숙하지 않아 아직은 형편없는 실력이지만, 형편없음을 드러내는 부끄러움보다 점진적으로 발전하는 모습을 보여주고픈 마음이 앞서기에 원문을 옮길 예정이다.*
-
-*~~마음이 바뀌면 지울지도 모른다. 아무도 안 볼 것 같기도 하고.~~*
-
 ### Abstract
 
 This article discusses peephole optimizations through refinement, motivated by the *TransOpt* project. The compositionality of refinement explains why local rewrites preserve correctness, as each transformation reduces the set of possible behaviors without introducing new ones. Building on this perspective, the relationship between local correctness and optimization is further considered, raising the question of how true global optimality can be achieved beyond local rewrites.
