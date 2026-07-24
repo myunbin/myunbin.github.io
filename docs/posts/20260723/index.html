@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>밸런스 게임 | Hyunbin Kim, 김현빈</title>
+  <meta name="description" content="Researcher personal page">
+  <link rel="stylesheet" href="/css/style.css?v=3">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+</head>
+<body>
+  <div class="page-wrap">
+    <nav class="top-nav">
+  <a href="/">Home</a>
+  <a href="/posts/">Post</a>
+</nav>
+
+    <main class="main">
+      
+  <article class="post-single">
+    <header class="post-header">
+      <h1 class="post-title">밸런스 게임</h1>
+      <time class="post-date" datetime="2026-07-23">2026. 7. 23</time>
+    </header>
+    <div class="post-content content">
+      <h3 id="abstract">Abstract</h3>
+<p>LLVM의 모듈화는 유지보수성과 확장성을 높이지만, 독립적인 최적화 단계(pass)는 최적의 성능을 보장하지 못한다. <em>Unison</em>은 컴파일러 뒷단의 명령어 배치(instruction scheduling)와 레지스터 할당(register allocation)을 하나의 제약 해결(constraint solving) 문제로 통합한다<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. 본 글에서는 Unison을 통해 모듈화의 한계를 알아보고, 모듈화와 통합 사이에서 컴파일러가 찾는 균형점을 살펴본다.</p>
+<h3 id="본문">본문</h3>
+<p>모듈화와 통합 사이의 선택은 컴퓨터 공학에서 가장 중요한 밸런스 게임일지 모른다. LLVM은 컴파일러를 독립적인 모듈과 최적화 단계로 구성하여 유지보수성과 확장성을 크게 향상시켰다. 그러나 각 단계가 독립적인 최적화를 하기 때문에, 전체 시스템에서 최선의 성능을 보장하지는 않는다.</p>
+<p>컴파일러 뒷단에는 서로 상충되는 목표를 가진 두 최적화 단계가 있다.
+명령어 배치기는 $\texttt{load}$와 같이 지연이 큰 명령어를 미리 배치하여, 메모리 접근을 기다리는 동안 독립적인 명령어를 실행해 병렬성을 높인다.
+반면 레지스터 할당기는 값의 생존 기간(live range)을 줄여 메모리 접근을 최소화한다.
+만약 $\texttt{load}$를 앞당겨 배치하면 메모리 지연은 줄어들지만 생존 기간이 길어져 메모리 접근이 증가할 수 있으며, 반대로 생존 기간을 줄이면 메모리 지연으로 인해 병렬성이 감소할 수 있다.
+한 최적화기는 자원을 쉬지 않고 활용하려 하고, 다른 하나는 자원을 오래 점유하지 않으려는 충돌이 발생하는 것이다.</p>
+<p>Unison은 명령어 배치와 레지스터 할당을 하나의 통합된 최적화 문제로 해결한다.
+두 문제를 제약 해결 문제로 모델링하고,
+명령어의 실행 시점과 레지스터 배치, 메모리로 내보낼 값 등을 한번에 결정한다.
+한 단계의 결과를 다음 단계의 입력으로 사용하는 기존 방식과 달리, 모든 선택을 함께 고려하여 두 단계의 목적을 동시에 만족하는 해를 찾아 최적 성능을 가진 기계어를 생성한다.</p>
+<p>LLVM은 통합된 컴파일러를 모듈화하며 효율적인 컴파일러의 기준이 되었다.
+그러나 국소적인 최적화의 한계는 다시 여러 최적화 단계를 통합하여 더 나은 성능을 얻으려는 시도로 이어지고 있다.
+모듈화와 통합 사이의 이 오래된 밸런스 게임은 과연 어디로 수렴할까.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Roberto Castañeda Lozano, Mats Carlsson, Gabriel Hjort Blindell, and Christian Schulte. &ldquo;Combinatorial Register Allocation and Instruction Scheduling.&rdquo; <em>ACM Transactions on Programming Languages and Systems</em>, 41(3), Article 17, 2019. <a href="https://doi.org/10.1145/3332373">https://doi.org/10.1145/3332373</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+  </article>
+
+    </main>
+  </div>
+  
+  <footer class="footer">
+    <p>© 2026 Hyunbin Kim</p>
+  </footer>
+  
+  <script>
+    (function() {
+      var root = document.querySelector(".main") || document.body;
+      function run() {
+        if (typeof renderMathInElement === "function") {
+          renderMathInElement(root, {
+            delimiters: [
+              { left: "$$", right: "$$", display: true },
+              { left: "$", right: "$", display: false },
+              { left: "\\[", right: "\\]", display: true },
+              { left: "\\(", right: "\\)", display: false }
+            ],
+            throwOnError: false,
+            ignoredTags: ["script", "noscript", "style"]
+          });
+        }
+        if (typeof katex !== "undefined") {
+          root.querySelectorAll(".math-render").forEach(function(el) {
+            var latex = el.getAttribute("data-latex");
+            if (latex) {
+              try {
+                katex.render(latex, el, { displayMode: el.classList.contains("math-block"), throwOnError: false });
+              } catch (err) {}
+            }
+          });
+        }
+      }
+      function loadAutoRender() {
+        var ar = document.createElement("script");
+        ar.src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js";
+        ar.crossOrigin = "anonymous";
+        ar.onload = run;
+        document.body.appendChild(ar);
+      }
+      var s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js";
+      s.crossOrigin = "anonymous";
+      s.onload = loadAutoRender;
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+</html>
