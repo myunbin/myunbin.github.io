@@ -6,8 +6,15 @@
     <description>Recent content in Post on Hyunbin Kim, 김현빈</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 23 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When in Rust, Do as Rustaceans Do.</title>
+      <link>http://localhost:1313/posts/20260813/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20260813/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Rust는 메모리와 동시성에 대한 안전성을 제공하지만, C보다 성능이 낮다는 문제가 제기된다.&#xA;본 글은 이러한 성능 저하의 원인이 Rust 자체가 아니라 언어의 특성을 충분히 활용하지 못한 구현에 있을 수 있음을 보인다.&#xA;나아가 Rust 코드를 언어의 특성에 맞는 효율적인 형태로 개선하는 자동화된 코드 정제 시스템의 필요성을 논의한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;Rust는 메모리 및 동시성 안전성을 보장하는 시스템 프로그래밍 언어로, 최근 기존 시스템을 재작성하기 위한 대안으로 주목받고 있다.&#xA;그러나 안전성을 보장하는 대신 성능이 저하된다는 부정적인 인식도 존재한다.&#xA;Zhang 등의 연구는 여러 벤치마크에서 Rust가 C보다 평균 77%의 성능 차이를 보였다고 보고했다 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&#xA;그렇다면 Rust는 태생적으로 C보다 느린 언어일까?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>밸런스 게임</title>
       <link>http://localhost:1313/posts/20260723/</link>
