@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/posts/</link><description>Recent content in Post on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>When in Rust, Do as Rustaceans Do.</title><link>https://myunbin.github.io/posts/20260813/</link><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20260813/</guid><description>&lt;h3 id="abstract"&gt;Abstract&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/posts/</link><description>Recent content in Post on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>하지만 느렸죠?</title><link>https://myunbin.github.io/posts/20260902/</link><pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20260902/</guid><description>&lt;h3 id="abstract"&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;LLM은 빠른 코드를 사람이 소화하기 어려운 속도로 생산한다.
+이처럼 막대한 양의 코드에는 발견하기 어려운 오류가 섞여 있어, 올바름(correctness)을 자동으로 검증하려는 시도가 이어지고 있다.
+그러나 최근 실험에서 올바름과 성능을 함께 요구받은 LLM이 증명하기 쉬운 느린 코드를 선택하는 현상이 관찰되었다.
+본 글은 LLM 생성 코드의 올바름과 성능을 함께 보장하는 자동 증명 및 최적화 파이프라인의 필요성을 논한다.&lt;/p&gt;
+&lt;h3 id="본문"&gt;본문&lt;/h3&gt;
+&lt;p&gt;LLM에게 빠른 코드 생성은 더 이상 어려운 일이 아니다.
+인간은 오랫동안 알고리즘의 성능을 다듬어 왔다.
+LLM은 그 알고리즘들을 학습했고, 이제 최정상급 인간과 경쟁한다.
+최근 국제정보올림피아드(IOI)에서는 금메달 수준에 올랐고,
+AtCoder에서는 세계 정상급 인간을 압도했다 &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description></item><item><title>When in Rust, Do as Rustaceans Do.</title><link>https://myunbin.github.io/posts/20260813/</link><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20260813/</guid><description>&lt;h3 id="abstract"&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Rust는 메모리와 동시성에 대한 안전성을 제공하지만, C보다 성능이 낮다는 문제가 제기된다.
 본 글은 이러한 성능 저하의 원인이 Rust 자체가 아니라 언어의 특성을 충분히 활용하지 못한 구현에 있을 수 있음을 보인다.
 나아가 Rust 코드를 언어의 특성에 맞는 효율적인 형태로 개선하는 자동화된 코드 정제 시스템의 필요성을 논의한다.&lt;/p&gt;
