@@ -6,8 +6,15 @@
     <description>Recent content in Post on Hyunbin Kim, 김현빈</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>하지만 느렸죠?</title>
+      <link>http://localhost:1313/posts/20260902/</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20260902/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;LLM은 빠른 코드를 사람이 소화하기 어려운 속도로 생산한다.&#xA;이처럼 막대한 양의 코드에는 발견하기 어려운 오류가 섞여 있어, 올바름(correctness)을 자동으로 검증하려는 시도가 이어지고 있다.&#xA;그러나 최근 실험에서 올바름과 성능을 함께 요구받은 LLM이 증명하기 쉬운 느린 코드를 선택하는 현상이 관찰되었다.&#xA;본 글은 LLM 생성 코드의 올바름과 성능을 함께 보장하는 자동 증명 및 최적화 파이프라인의 필요성을 논한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;LLM에게 빠른 코드 생성은 더 이상 어려운 일이 아니다.&#xA;인간은 오랫동안 알고리즘의 성능을 다듬어 왔다.&#xA;LLM은 그 알고리즘들을 학습했고, 이제 최정상급 인간과 경쟁한다.&#xA;최근 국제정보올림피아드(IOI)에서는 금메달 수준에 올랐고,&#xA;AtCoder에서는 세계 정상급 인간을 압도했다 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>When in Rust, Do as Rustaceans Do.</title>
       <link>http://localhost:1313/posts/20260813/</link>
