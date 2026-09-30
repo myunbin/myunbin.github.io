@@ -6,8 +6,22 @@
     <description>Recent content in Post on Hyunbin Kim, 김현빈</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>나는 놈 밑에 뛰는 놈</title>
+      <link>http://localhost:1313/posts/20260929/</link>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20260929/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;AI가 문제를 더 잘 풀어도, 사람이 문제를 푸는 가치는 사라지지 않는다.&#xA;함께 사고하고 협력하며, 실패를 딛는 경험은 맞춘 문제의 수만으로 설명할 수 없다.&#xA;본 글은 나의 프로그래밍 대회의 경험을 바탕으로 프로그래밍 문제해결(Problem Solving, PS)의 본질을 돌아본다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;나는 프로그래밍 문제해결을 몹시 좋아했다.&#xA;졸업하는 해까지 국제대학생프로그래밍경시대회(ICPC)에 일곱 번이나 참가했으니,&#xA;학부를 이것으로 퉁쳐도 과언은 아니겠다.&#xA;손톱이 아플 만큼 단단히 엉킨 실타래를 한 올씩 풀어내듯,&#xA;작은 관찰이 쌓여 막막하던 문제가 또렷해지는 순간이 좋았다.&#xA;그리고 나는 문제해결이 인간 고유의 것이라고 믿었다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>「호프」의 불완전성 정리</title>
+      <link>http://localhost:1313/posts/20260928/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20260928/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;인공지능은 불완전한 답을 완벽해 보이도록 애써 포장한다.&#xA;그를 비웃듯 영화 「호프」는 엉성함을 드러내되, 자신이 추구하는 바를 끝까지 밀어붙인다.&#xA;이 대비는 무지를 감추려 했던 나의 대학원 생활을 돌아보게 한다.&#xA;본 글은 영화 「호프」에서 영감을 받아,&#xA;부족함을 인정하면서도 연구의 가치를 믿고 설득하는 용기를 이야기한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;빈틈을 드러내는 것은 부끄럽다.&#xA;대학원에 진학한 지 어느덧 반년이 지났지만,&#xA;여전히 나는 아는 것이 없음을 매일 느낀다.&#xA;무지를 줄이는 일은 즐겁지만, 무지를 들키는 일은 고통이다.&#xA;그래서인지 나도 인공지능처럼 불완전한 생각을 그럴싸하게 포장해 말하곤 한다.&#xA;어느덧 나도 GPT의 가장 저렴한 모델처럼 대답하게 될 무렵, 나홍진 감독의 신작 「호프」를 봤다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>하지만 느렸죠?</title>
       <link>http://localhost:1313/posts/20260902/</link>
