@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>난제 짓는 늙은이 | Hyunbin Kim, 김현빈</title>
+  <meta name="description" content="Researcher personal page">
+  <link rel="stylesheet" href="/css/style.css?v=3">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+</head>
+<body>
+  <div class="page-wrap">
+    <nav class="top-nav">
+  <a href="/">Home</a>
+  <a href="/posts/">Post</a>
+</nav>
+
+    <main class="main">
+      
+  <article class="post-single">
+    <header class="post-header">
+      <h1 class="post-title">난제 짓는 늙은이</h1>
+      <time class="post-date" datetime="2026-10-20">2026. 10. 20</time>
+    </header>
+    <div class="post-content content">
+      <h3 id="abstract">Abstract</h3>
+<p>앤트로픽의 클로드가 기존의 하한 추측을 깨고 삼합 문제(3SUM)의 가장 빠른 알고리즘을 제안했다.
+이 연구 또한 최근 AI가 난제를 풀어내는 흐름처럼, 서로 다른 분야의 연구를 연결해 문제를 해결했다.
+본 글은 매일같이 난제들이 풀려 가는 오늘, 우리 연구자의 역할을 돌아본다.</p>
+<h3 id="본문">본문</h3>
+<p>최근 앤트로픽의 클로드가 삼합 문제의 가장 빠른 알고리즘을 제안했다<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+삼합 문제는 배열 $a$에서 $a_i+a_j+a_k=0$을 만족하는 순서쌍 $(i,j,k)$를 찾는 문제로,
+임의의 $\epsilon$에 대해서 $\mathcal{O}(n^{2-\epsilon})$ 시간 알고리즘은 존재하지 않으리라는 추측이 널리 받아들여져 왔다.
+그러나 AI는 그 추측을 깨는 $\mathcal{O}(n^{1.9992})$ 시간 알고리즘을 제안했다.
+공교롭게도 이 발표 며칠 전 전산학부 세미나에서 같은 주제를 다뤘는데,
+당시 이 추측이 맞으리라 보셨던 교수님의 반응이 궁금했다.</p>
+<p>요 근래 AI를 활용해 내놓은 연구들이 그렇듯, 이번 연구 또한 서로 다른 분야의 연구를 연결하여 난제를 해결했다.
+삼합 연구는 쇤하게(Schönhage)의 행렬 곱셈 알고리즘을 개선하고,
+삼합 문제를 행렬 곱셈으로 환원해 오랫동안 받아들여져 온 추측을 반박했다.
+GPT가 해결한 에르되시(Erdős)의 단위거리 추측 문제도 비슷한 사례다.
+이산기하학의 문제에 정수론 연구를 접목해 추측을 반박했다<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>AI는 가장 강력한 검색 엔진이고, 인류가 풀지 못했던(혹은 방치하고 있던) 난제들을 학살하고 있다.
+오픈AI는 얼마 전 수학 난제에 관한 논문 722편을 투척했다<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.
+앞선 예시처럼 여러 분야의 방대한 이론을 연결하는 연구가 대부분이다.
+AI 없이는 해내기 어려웠을 일인 것이, 인간이 하나 받기도 어려운 박사학위를 몇 개씩 받을 수는 없는 노릇이다.
+(심지어 두 분야의 지식이 난제를 푸는 연결고리가 되어야 한다!)</p>
+<p>분야 초월 장치가 나온 오늘, 연구자인 우리의 역할은 무엇이 될까?
+연구자는 어쩌면 상상력으로 난제를 빚는 사람이 될지도 모르겠다.
+중력이 없는 세상에서 중력을 기술할 수 있는가?
+빛만큼 빨리 달리면 나보다 늙은 내 자식을 만날 수 있는가?
+온 세상의 지식을 연결할 수 있는 장치가 있으니,
+우리의 역할은 사과의 추락을 보며 중력을 상상하고,
+광속으로 달리는 내가 거울에 비치는지를 궁금해하는 것이다.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Josh Alman and Virginia Vassilevska Williams. <em>Truly subquadratic 3SUM and truly subcubic APSP via triangles in sparse lopsided graphs</em>. arXiv preprint arXiv:2610.06783, 2026.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>OpenAI. An OpenAI model has disproved a central conjecture in discrete geometry. <a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">https://openai.com/index/model-disproves-discrete-geometry-conjecture/</a>, May 2026.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>OpenAI. Sharing AI progress in mathematics. <a href="https://openai.com/index/sharing-ai-progress-in-mathematics/">https://openai.com/index/sharing-ai-progress-in-mathematics/</a>, October 2026.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>OpenAI. Mathematical manuscripts and supporting proof artifacts. <a href="https://github.com/openai/math">https://github.com/openai/math</a>, 2026.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+  </article>
+
+    </main>
+  </div>
+  
+  <footer class="footer">
+    <p>© 2026 Hyunbin Kim</p>
+  </footer>
+  
+  <script>
+    (function() {
+      var root = document.querySelector(".main") || document.body;
+      function run() {
+        if (typeof renderMathInElement === "function") {
+          renderMathInElement(root, {
+            delimiters: [
+              { left: "$$", right: "$$", display: true },
+              { left: "$", right: "$", display: false },
+              { left: "\\[", right: "\\]", display: true },
+              { left: "\\(", right: "\\)", display: false }
+            ],
+            throwOnError: false,
+            ignoredTags: ["script", "noscript", "style"]
+          });
+        }
+        if (typeof katex !== "undefined") {
+          root.querySelectorAll(".math-render").forEach(function(el) {
+            var latex = el.getAttribute("data-latex");
+            if (latex) {
+              try {
+                katex.render(latex, el, { displayMode: el.classList.contains("math-block"), throwOnError: false });
+              } catch (err) {}
+            }
+          });
+        }
+      }
+      function loadAutoRender() {
+        var ar = document.createElement("script");
+        ar.src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js";
+        ar.crossOrigin = "anonymous";
+        ar.onload = run;
+        document.body.appendChild(ar);
+      }
+      var s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js";
+      s.crossOrigin = "anonymous";
+      s.onload = loadAutoRender;
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+</html>
