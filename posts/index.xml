@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/posts/</link><description>Recent content in Post on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>나는 놈 밑에 뛰는 놈</title><link>https://myunbin.github.io/posts/20260929/</link><pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20260929/</guid><description>&lt;h3 id="abstract"&gt;Abstract&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/posts/</link><description>Recent content in Post on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>난제 짓는 늙은이</title><link>https://myunbin.github.io/posts/20261020/</link><pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20261020/</guid><description>&lt;h3 id="abstract"&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;앤트로픽의 클로드가 기존의 하한 추측을 깨고 삼합 문제(3SUM)의 가장 빠른 알고리즘을 제안했다.
+이 연구 또한 최근 AI가 난제를 풀어내는 흐름처럼, 서로 다른 분야의 연구를 연결해 문제를 해결했다.
+본 글은 매일같이 난제들이 풀려 가는 오늘, 우리 연구자의 역할을 돌아본다.&lt;/p&gt;
+&lt;h3 id="본문"&gt;본문&lt;/h3&gt;
+&lt;p&gt;최근 앤트로픽의 클로드가 삼합 문제의 가장 빠른 알고리즘을 제안했다&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.
+삼합 문제는 배열 $a$에서 $a_i+a_j+a_k=0$을 만족하는 순서쌍 $(i,j,k)$를 찾는 문제로,
+임의의 $\epsilon$에 대해서 $\mathcal{O}(n^{2-\epsilon})$ 시간 알고리즘은 존재하지 않으리라는 추측이 널리 받아들여져 왔다.
+그러나 AI는 그 추측을 깨는 $\mathcal{O}(n^{1.9992})$ 시간 알고리즘을 제안했다.
+공교롭게도 이 발표 며칠 전 전산학부 세미나에서 같은 주제를 다뤘는데,
+당시 이 추측이 맞으리라 보셨던 교수님의 반응이 궁금했다.&lt;/p&gt;</description></item><item><title>나는 놈 밑에 뛰는 놈</title><link>https://myunbin.github.io/posts/20260929/</link><pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20260929/</guid><description>&lt;h3 id="abstract"&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;AI가 문제를 더 잘 풀어도, 사람이 문제를 푸는 가치는 사라지지 않는다.
 함께 사고하고 협력하며, 실패를 딛는 경험은 맞춘 문제의 수만으로 설명할 수 없다.
 본 글은 나의 프로그래밍 대회의 경험을 바탕으로 프로그래밍 문제해결(Problem Solving, PS)의 본질을 돌아본다.&lt;/p&gt;
