@@ -8,6 +8,7 @@
   --link: #2563eb;
   --link-hover: #1d4ed8;
   --font-main: Arial, Helvetica, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-body-size: 0.9375rem; /* 15px */
 }
 
 * {
@@ -23,13 +24,14 @@ body {
   margin: 0;
   padding: 2rem 1rem 4rem;
   font-family: var(--font-main);
+  font-size: var(--font-body-size);
   color: var(--text);
   background: var(--bg);
-  line-height: 1.32;
+  line-height: 1.5;
 }
 
 .page-wrap {
-  max-width: 816px; /* 680 × 1.2 */
+  max-width: 849px; /* 기존 816px에서 약 4% 확대 */
   margin: 0 auto;
   border: 2px solid #000;
   padding: 1.5rem 1.5rem 2rem;
@@ -43,7 +45,7 @@ body {
   margin: 0 0 1.5rem;
   padding: 0;
   font-family: var(--font-main);
-  font-size: 0.75rem; /* 12px */
+  font-size: var(--font-body-size);
 }
 
 .top-nav a {
@@ -68,7 +70,7 @@ h1 {
 }
 
 h2 {
-  font-size: 0.9375rem; /* 15px, 기존 11pt */
+  font-size: 1rem; /* 16px */
   margin: 2.5rem 0 0.75rem;
   color: var(--text);
   font-weight: 600;
@@ -79,7 +81,7 @@ h2:first-of-type {
 }
 
 h3 {
-  font-size: 0.8125rem; /* 13px, 기존 10pt */
+  font-size: 0.875rem; /* 14px */
   margin: 1rem 0 0.35rem;
   font-weight: 600;
 }
@@ -139,7 +141,7 @@ li {
 
 .contacts {
   margin-top: 0.5rem;
-  font-size: 0.75rem;
+  font-size: var(--font-body-size);
 }
 
 .contacts a {
@@ -152,7 +154,7 @@ li {
 
 .intro {
   margin-bottom: 0.5rem;
-  font-size: 0.75rem;
+  font-size: var(--font-body-size);
 }
 
 .section {
@@ -160,7 +162,7 @@ li {
 }
 
 .section .content {
-  font-size: 0.75rem;
+  font-size: var(--font-body-size);
 }
 
 .publications ul {
@@ -173,7 +175,7 @@ li {
 }
 
 .footer {
-  max-width: 816px; /* 680 × 1.2 */
+  max-width: 849px;
   margin: 0.5rem auto 0;
   padding-top: 0;
   font-size: 0.625rem; /* 10px, 기존 8pt */
@@ -206,11 +208,11 @@ li {
 
 .post-item a {
   flex: 1;
-  font-size: 0.75rem; /* 홈 본문과 동일한 크기 */
+  font-size: var(--font-body-size);
 }
 
 .post-date {
-  font-size: 0.75rem;
+  font-size: var(--font-body-size);
   color: var(--text-muted);
   white-space: nowrap;
 }
@@ -224,13 +226,22 @@ li {
 }
 
 .post-single .post-date {
-  font-size: 0.75rem;
+  font-size: var(--font-body-size);
   color: var(--text-muted);
 }
 
 .post-content {
   font-family: var(--font-main);
-  font-size: 0.75rem; /* 본문과 동일한 크기 */
+  font-size: var(--font-body-size);
+  line-height: 1.5;
+}
+
+.post-content h2 {
+  font-size: 1.25rem; /* 20px */
+}
+
+.post-content h3 {
+  font-size: 1.125rem; /* 18px */
 }
 
 .post-content p {
@@ -249,7 +260,7 @@ li {
   right: 0;
   top: 0;
   color: var(--text-muted);
-  font-size: 0.75rem;
+  font-size: var(--font-body-size);
   font-style: italic;
   white-space: nowrap;
 }
