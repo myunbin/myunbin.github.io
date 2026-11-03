@@ -23,11 +23,12 @@
       <time class="post-date" datetime="2026-08-13">2026. 8. 13</time>
     </header>
     <div class="post-content content">
-      <h3 id="abstract">Abstract</h3>
+      <blockquote>
+<h3 id="요약">요약</h3>
 <p>Rust는 메모리와 동시성에 대한 안전성을 제공하지만, C보다 성능이 낮다는 문제가 제기된다.
 본 글은 이러한 성능 저하의 원인이 Rust 자체가 아니라 언어의 특성을 충분히 활용하지 못한 구현에 있을 수 있음을 보인다.
 나아가 Rust 코드를 언어의 특성에 맞는 효율적인 형태로 개선하는 자동화된 코드 정제 시스템의 필요성을 논의한다.</p>
-<h3 id="본문">본문</h3>
+</blockquote>
 <p>Rust는 메모리 및 동시성 안전성을 보장하는 시스템 프로그래밍 언어로, 최근 기존 시스템을 재작성하기 위한 대안으로 주목받고 있다.
 그러나 안전성을 보장하는 대신 성능이 저하된다는 부정적인 인식도 존재한다.
 Zhang 등의 연구는 여러 벤치마크에서 Rust가 C보다 평균 77%의 성능 차이를 보였다고 보고했다 <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.

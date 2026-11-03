@@ -6,105 +6,112 @@
     <description>Recent content in Post on Hyunbin Kim, 김현빈</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>트로이 목마 (The Trojan Horse)</title>
+      <link>http://localhost:1313/posts/20261029/</link>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20261029/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;학계는 서로의 선의를 믿고 거인의 어깨 위에 새로운 지식을 쌓아가는 곳이다.&#xA;그러나 AI의 보급으로 그 믿음이 흔들리고 있다.&#xA;본 글은 영화 「오디세이」와 최근의 경험을 바탕으로, 학계를 지탱하던 신뢰의 변화를 돌아본다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;영화 「오디세이」는 원작의 영웅 서사시를 꼬집으며, 문명을 지탱했던 신뢰의 붕괴를 다룬다.&#xA;그 신뢰의 기저에는 낯선 이를 자신이 대접받고 싶은 대로 환대하라는 ‘제우스의 법’이 있다.&#xA;오디세우스는 화평의 제물로 위장한 트로이 목마로 이 믿음을 이용했다.&#xA;전쟁통에도 모두가 제우스의 법 아래에서 신의를 지키던 때, 오디세우스는 기만을 발명했다.&#xA;영화는 오디세우스의 승리를 신의가 무너진 세상의 시작으로 그린다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>난제 짓는 늙은이</title>
       <link>http://localhost:1313/posts/20261020/</link>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20261020/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;앤트로픽의 클로드가 기존의 하한 추측을 깨고 삼합 문제(3SUM)의 가장 빠른 알고리즘을 제안했다.&#xA;이 연구 또한 최근 AI가 난제를 풀어내는 흐름처럼, 서로 다른 분야의 연구를 연결해 문제를 해결했다.&#xA;본 글은 매일같이 난제들이 풀려 가는 오늘, 우리 연구자의 역할을 돌아본다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;최근 앤트로픽의 클로드가 삼합 문제의 가장 빠른 알고리즘을 제안했다&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&#xA;삼합 문제는 배열 $a$에서 $a_i+a_j+a_k=0$을 만족하는 순서쌍 $(i,j,k)$를 찾는 문제로,&#xA;임의의 $\epsilon$에 대해서 $\mathcal{O}(n^{2-\epsilon})$ 시간 알고리즘은 존재하지 않으리라는 추측이 널리 받아들여져 왔다.&#xA;그러나 AI는 그 추측을 깨는 $\mathcal{O}(n^{1.9992})$ 시간 알고리즘을 제안했다.&#xA;공교롭게도 이 발표 며칠 전 전산학부 세미나에서 같은 주제를 다뤘는데,&#xA;당시 이 추측이 맞으리라 보셨던 교수님의 반응이 궁금했다.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;앤트로픽의 클로드가 기존의 하한 추측을 깨고 삼합 문제(3SUM)의 가장 빠른 알고리즘을 제안했다.&#xA;이 연구 또한 최근 AI가 난제를 풀어내는 흐름처럼, 서로 다른 분야의 연구를 연결해 문제를 해결했다.&#xA;본 글은 매일같이 난제들이 풀려 가는 오늘, 우리 연구자의 역할을 돌아본다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;최근 앤트로픽의 클로드가 삼합 문제의 가장 빠른 알고리즘을 제안했다&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&#xA;삼합 문제는 배열 $a$에서 $a_i+a_j+a_k=0$을 만족하는 순서쌍 $(i,j,k)$를 찾는 문제로,&#xA;임의의 $\epsilon$에 대해서 $\mathcal{O}(n^{2-\epsilon})$ 시간 알고리즘은 존재하지 않으리라는 추측이 널리 받아들여져 왔다.&#xA;그러나 AI는 그 추측을 깨는 $\mathcal{O}(n^{1.9992})$ 시간 알고리즘을 제안했다.&#xA;공교롭게도 이 발표 며칠 전 전산학부 세미나에서 같은 주제를 다뤘는데,&#xA;당시 이 추측이 맞으리라 보셨던 교수님의 반응이 궁금했다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>나는 놈 밑에 뛰는 놈</title>
       <link>http://localhost:1313/posts/20260929/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20260929/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;AI가 문제를 더 잘 풀어도, 사람이 문제를 푸는 가치는 사라지지 않는다.&#xA;함께 사고하고 협력하며, 실패를 딛는 경험은 맞춘 문제의 수만으로 설명할 수 없다.&#xA;본 글은 나의 프로그래밍 대회의 경험을 바탕으로 프로그래밍 문제해결(Problem Solving, PS)의 본질을 돌아본다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;나는 프로그래밍 문제해결을 몹시 좋아했다.&#xA;졸업하는 해까지 국제대학생프로그래밍경시대회(ICPC)에 일곱 번이나 참가했으니,&#xA;학부를 이것으로 퉁쳐도 과언은 아니겠다.&#xA;손톱이 아플 만큼 단단히 엉킨 실타래를 한 올씩 풀어내듯,&#xA;작은 관찰이 쌓여 막막하던 문제가 또렷해지는 순간이 좋았다.&#xA;그리고 나는 문제해결이 인간 고유의 것이라고 믿었다.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;AI가 문제를 더 잘 풀어도, 사람이 문제를 푸는 가치는 사라지지 않는다.&#xA;함께 사고하고 협력하며, 실패를 딛는 경험은 맞춘 문제의 수만으로 설명할 수 없다.&#xA;본 글은 나의 프로그래밍 대회의 경험을 바탕으로 프로그래밍 문제해결(Problem Solving, PS)의 본질을 돌아본다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;나는 프로그래밍 문제해결을 몹시 좋아했다.&#xA;졸업하는 해까지 국제대학생프로그래밍경시대회(ICPC)에 일곱 번이나 참가했으니,&#xA;학부를 이것으로 퉁쳐도 과언은 아니겠다.&#xA;손톱이 아플 만큼 단단히 엉킨 실타래를 한 올씩 풀어내듯,&#xA;작은 관찰이 쌓여 막막하던 문제가 또렷해지는 순간이 좋았다.&#xA;그리고 나는 문제해결이 인간 고유의 것이라고 믿었다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>「호프」의 불완전성 정리</title>
       <link>http://localhost:1313/posts/20260928/</link>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20260928/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;인공지능은 불완전한 답을 완벽해 보이도록 애써 포장한다.&#xA;그를 비웃듯 영화 「호프」는 엉성함을 드러내되, 자신이 추구하는 바를 끝까지 밀어붙인다.&#xA;이 대비는 무지를 감추려 했던 나의 대학원 생활을 돌아보게 한다.&#xA;본 글은 영화 「호프」에서 영감을 받아,&#xA;부족함을 인정하면서도 연구의 가치를 믿고 설득하는 용기를 이야기한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;빈틈을 드러내는 것은 부끄럽다.&#xA;대학원에 진학한 지 어느덧 반년이 지났지만,&#xA;여전히 나는 아는 것이 없음을 매일 느낀다.&#xA;무지를 줄이는 일은 즐겁지만, 무지를 들키는 일은 고통이다.&#xA;그래서인지 나도 인공지능처럼 불완전한 생각을 그럴싸하게 포장해 말하곤 한다.&#xA;어느덧 나도 GPT의 가장 저렴한 모델처럼 대답하게 될 무렵, 나홍진 감독의 신작 「호프」를 봤다.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;인공지능은 불완전한 답을 완벽해 보이도록 애써 포장한다.&#xA;그를 비웃듯 영화 「호프」는 엉성함을 드러내되, 자신이 추구하는 바를 끝까지 밀어붙인다.&#xA;이 대비는 무지를 감추려 했던 나의 대학원 생활을 돌아보게 한다.&#xA;본 글은 영화 「호프」에서 영감을 받아,&#xA;부족함을 인정하면서도 연구의 가치를 믿고 설득하는 용기를 이야기한다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;빈틈을 드러내는 것은 부끄럽다.&#xA;대학원에 진학한 지 어느덧 반년이 지났지만,&#xA;여전히 나는 아는 것이 없음을 매일 느낀다.&#xA;무지를 줄이는 일은 즐겁지만, 무지를 들키는 일은 고통이다.&#xA;그래서인지 나도 인공지능처럼 불완전한 생각을 그럴싸하게 포장해 말하곤 한다.&#xA;어느덧 나도 GPT의 가장 저렴한 모델처럼 대답하게 될 무렵, 나홍진 감독의 신작 「호프」를 봤다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>하지만 느렸죠?</title>
       <link>http://localhost:1313/posts/20260902/</link>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20260902/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;LLM은 빠른 코드를 사람이 소화하기 어려운 속도로 생산한다.&#xA;이처럼 막대한 양의 코드에는 발견하기 어려운 오류가 섞여 있어, 올바름(correctness)을 자동으로 검증하려는 시도가 이어지고 있다.&#xA;그러나 최근 실험에서 올바름과 성능을 함께 요구받은 LLM이 증명하기 쉬운 느린 코드를 선택하는 현상이 관찰되었다.&#xA;본 글은 LLM 생성 코드의 올바름과 성능을 함께 보장하는 자동 증명 및 최적화 파이프라인의 필요성을 논한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;LLM에게 빠른 코드 생성은 더 이상 어려운 일이 아니다.&#xA;인간은 오랫동안 알고리즘의 성능을 다듬어 왔다.&#xA;LLM은 그 알고리즘들을 학습했고, 이제 최정상급 인간과 경쟁한다.&#xA;최근 국제정보올림피아드(IOI)에서는 금메달 수준에 올랐고,&#xA;AtCoder에서는 세계 정상급 인간을 압도했다 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;LLM은 빠른 코드를 사람이 소화하기 어려운 속도로 생산한다.&#xA;이처럼 막대한 양의 코드에는 발견하기 어려운 오류가 섞여 있어, 올바름(correctness)을 자동으로 검증하려는 시도가 이어지고 있다.&#xA;그러나 최근 실험에서 올바름과 성능을 함께 요구받은 LLM이 증명하기 쉬운 느린 코드를 선택하는 현상이 관찰되었다.&#xA;본 글은 LLM 생성 코드의 올바름과 성능을 함께 보장하는 자동 증명 및 최적화 파이프라인의 필요성을 논한다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;LLM에게 빠른 코드 생성은 더 이상 어려운 일이 아니다.&#xA;인간은 오랫동안 알고리즘의 성능을 다듬어 왔다.&#xA;LLM은 그 알고리즘들을 학습했고, 이제 최정상급 인간과 경쟁한다.&#xA;최근 국제정보올림피아드(IOI)에서는 금메달 수준에 올랐고,&#xA;AtCoder에서는 세계 정상급 인간을 압도했다 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>When in Rust, Do as Rustaceans Do.</title>
       <link>http://localhost:1313/posts/20260813/</link>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20260813/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;Rust는 메모리와 동시성에 대한 안전성을 제공하지만, C보다 성능이 낮다는 문제가 제기된다.&#xA;본 글은 이러한 성능 저하의 원인이 Rust 자체가 아니라 언어의 특성을 충분히 활용하지 못한 구현에 있을 수 있음을 보인다.&#xA;나아가 Rust 코드를 언어의 특성에 맞는 효율적인 형태로 개선하는 자동화된 코드 정제 시스템의 필요성을 논의한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;Rust는 메모리 및 동시성 안전성을 보장하는 시스템 프로그래밍 언어로, 최근 기존 시스템을 재작성하기 위한 대안으로 주목받고 있다.&#xA;그러나 안전성을 보장하는 대신 성능이 저하된다는 부정적인 인식도 존재한다.&#xA;Zhang 등의 연구는 여러 벤치마크에서 Rust가 C보다 평균 77%의 성능 차이를 보였다고 보고했다 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&#xA;그렇다면 Rust는 태생적으로 C보다 느린 언어일까?&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;Rust는 메모리와 동시성에 대한 안전성을 제공하지만, C보다 성능이 낮다는 문제가 제기된다.&#xA;본 글은 이러한 성능 저하의 원인이 Rust 자체가 아니라 언어의 특성을 충분히 활용하지 못한 구현에 있을 수 있음을 보인다.&#xA;나아가 Rust 코드를 언어의 특성에 맞는 효율적인 형태로 개선하는 자동화된 코드 정제 시스템의 필요성을 논의한다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Rust는 메모리 및 동시성 안전성을 보장하는 시스템 프로그래밍 언어로, 최근 기존 시스템을 재작성하기 위한 대안으로 주목받고 있다.&#xA;그러나 안전성을 보장하는 대신 성능이 저하된다는 부정적인 인식도 존재한다.&#xA;Zhang 등의 연구는 여러 벤치마크에서 Rust가 C보다 평균 77%의 성능 차이를 보였다고 보고했다 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&#xA;그렇다면 Rust는 태생적으로 C보다 느린 언어일까?&lt;/p&gt;</description>
     </item>
     <item>
       <title>밸런스 게임</title>
       <link>http://localhost:1313/posts/20260723/</link>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20260723/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;LLVM의 모듈화는 유지보수성과 확장성을 높이지만, 독립적인 최적화 단계(pass)는 최적의 성능을 보장하지 못한다. &lt;em&gt;Unison&lt;/em&gt;은 컴파일러 뒷단의 명령어 배치(instruction scheduling)와 레지스터 할당(register allocation)을 하나의 제약 해결(constraint solving) 문제로 통합한다&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. 본 글에서는 Unison을 통해 모듈화의 한계를 알아보고, 모듈화와 통합 사이에서 컴파일러가 찾는 균형점을 살펴본다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;모듈화와 통합 사이의 선택은 컴퓨터 공학에서 가장 중요한 밸런스 게임일지 모른다. LLVM은 컴파일러를 독립적인 모듈과 최적화 단계로 구성하여 유지보수성과 확장성을 크게 향상시켰다. 그러나 각 단계가 독립적인 최적화를 하기 때문에, 전체 시스템에서 최선의 성능을 보장하지는 않는다.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;LLVM의 모듈화는 유지보수성과 확장성을 높이지만, 독립적인 최적화 단계(pass)는 최적의 성능을 보장하지 못한다. &lt;em&gt;Unison&lt;/em&gt;은 컴파일러 뒷단의 명령어 배치(instruction scheduling)와 레지스터 할당(register allocation)을 하나의 제약 해결(constraint solving) 문제로 통합한다&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. 본 글에서는 Unison을 통해 모듈화의 한계를 알아보고, 모듈화와 통합 사이에서 컴파일러가 찾는 균형점을 살펴본다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;모듈화와 통합 사이의 선택은 컴퓨터 공학에서 가장 중요한 밸런스 게임일지 모른다. LLVM은 컴파일러를 독립적인 모듈과 최적화 단계로 구성하여 유지보수성과 확장성을 크게 향상시켰다. 그러나 각 단계가 독립적인 최적화를 하기 때문에, 전체 시스템에서 최선의 성능을 보장하지는 않는다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>컴파일러 불협화음</title>
       <link>http://localhost:1313/posts/20260707/</link>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20260707/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;꼬마 최적화(peephole optimization)는 컴파일러 중간단(mid-end)에서 재작성을 통해 프로그램 성능을 개선하는 핵심 기법이다.&#xA;본 글은 중간단의 최적화 규칙이 컴파일러 뒷단(back-end)에 불리한 코드 형태를 만들어 성능 저하로 이어지는 사례를 서술한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;꼬마 최적화는 주로 컴파일러의 중간단에서 국소적인 코드 패턴을 재작성하여 프로그램의 성능을 개선한다.&#xA;그러나 중간단의 최적화가 컴파일러 뒷단의 동작을 고려하지 않아 예상치 못한 성능 저하가 발생하는 사례를 관찰했다.&#xA;이는 중간 표현(Intermediate Representation)에서는 좋아 보이는 재작성 규칙이 실제 기계어에서는 비효율적인 코드로 이어질 수 있음을 보여준다.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;꼬마 최적화(peephole optimization)는 컴파일러 중간단(mid-end)에서 재작성을 통해 프로그램 성능을 개선하는 핵심 기법이다.&#xA;본 글은 중간단의 최적화 규칙이 컴파일러 뒷단(back-end)에 불리한 코드 형태를 만들어 성능 저하로 이어지는 사례를 서술한다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;꼬마 최적화는 주로 컴파일러의 중간단에서 국소적인 코드 패턴을 재작성하여 프로그램의 성능을 개선한다.&#xA;그러나 중간단의 최적화가 컴파일러 뒷단의 동작을 고려하지 않아 예상치 못한 성능 저하가 발생하는 사례를 관찰했다.&#xA;이는 중간 표현(Intermediate Representation)에서는 좋아 보이는 재작성 규칙이 실제 기계어에서는 비효율적인 코드로 이어질 수 있음을 보여준다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>근사한 나눗셈</title>
       <link>http://localhost:1313/posts/20260611/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20260611/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;컴파일러 최적화는 프로그램의 의미를 유지하면서 비싼 연산을 더 저렴한 연산으로 바꾸는 과정이다. 근사한 나눗셈(magic number division)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;은 상수 나눗셈을 곱셈과 비트 옮기기로 대체하는 최적화다. 본 글은 근사한 나눗셈의 원리를 소개한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;인간과 마찬가지로, 기계에게도 덧셈보다 곱셈이 어렵고 곱셈보다 나눗셈이 어렵다. CPU 관점에서 나눗셈은 덧셈, 곱셈, 비트 옮기기(bit shift)에 비해 수십 배가량 무거운 연산이다. 따라서 컴파일러가 나눗셈을 더 저렴한 연산들로 대체하려는 것은 자연스러운 선택이다.&lt;/p&gt;&#xA;&lt;p&gt;근사한 나눗셈은 상수로 나누는 연산을 더 저렴한 곱셈과 비트 옮기기로 바꾸는 컴파일러 최적화 기법이다. 다시 말해, $N$비트 부호 없는 정수 $x$에 대하여&#xA;$$&#xA;\left\lfloor \frac{x}{C} \right\rfloor&#xA;=\left\lfloor \frac{x \times m}{2^{N+s}} \right\rfloor&#xA;$$&#xA;가 성립하도록 하는 $m$과 $s$를 찾는 것이다. 여기서 $m$이 근사한 상수(magic number)이고, $s$는 추가로 옮길 비트의 양이다. $m$은 어림잡아 $\frac{2^{N+s}}{C}$를 올림한 값이므로 작은 오차를 포함한다. 이 오차가 모든 입력에서 몫을 바꾸지 않을 만큼 작도록 $s$를 정하면, 모든 $N$비트 부호 없는 정수에 대해 최적화가 성립한다. 부호 있는 정수의 경우에도  약간의 보정을 추가하면 같은 논리를 통해 정확한 결과를 얻을 수 있다.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;컴파일러 최적화는 프로그램의 의미를 유지하면서 비싼 연산을 더 저렴한 연산으로 바꾸는 과정이다. 근사한 나눗셈(magic number division)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;은 상수 나눗셈을 곱셈과 비트 옮기기로 대체하는 최적화다. 본 글은 근사한 나눗셈의 원리를 소개한다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;인간과 마찬가지로, 기계에게도 덧셈보다 곱셈이 어렵고 곱셈보다 나눗셈이 어렵다. CPU 관점에서 나눗셈은 덧셈, 곱셈, 비트 옮기기(bit shift)에 비해 수십 배가량 무거운 연산이다. 따라서 컴파일러가 나눗셈을 더 저렴한 연산들로 대체하려는 것은 자연스러운 선택이다.&lt;/p&gt;&#xA;&lt;p&gt;근사한 나눗셈은 상수로 나누는 연산을 더 저렴한 곱셈과 비트 옮기기로 바꾸는 컴파일러 최적화 기법이다. 다시 말해, $N$비트 부호 없는 정수 $x$에 대하여&#xA;$$&#xA;\left\lfloor \frac{x}{C} \right\rfloor&#xA;=\left\lfloor \frac{x \times m}{2^{N+s}} \right\rfloor&#xA;$$&#xA;가 성립하도록 하는 $m$과 $s$를 찾는 것이다. 여기서 $m$이 근사한 상수(magic number)이고, $s$는 추가로 옮길 비트의 양이다. $m$은 어림잡아 $\frac{2^{N+s}}{C}$를 올림한 값이므로 작은 오차를 포함한다. 이 오차가 모든 입력에서 몫을 바꾸지 않을 만큼 작도록 $s$를 정하면, 모든 $N$비트 부호 없는 정수에 대해 최적화가 성립한다. 부호 있는 정수의 경우에도  약간의 보정을 추가하면 같은 논리를 통해 정확한 결과를 얻을 수 있다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>실수 계산을 얼마나 실수할 것인가?</title>
       <link>http://localhost:1313/posts/20260524/</link>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20260524/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;수치 계산에서는 속도와 정확도 사이의 상충(trade-off)을 고려하는 것이 중요하다. 그러나 기존 컴파일러는 속도와 정확도를 동시에 고려하면서, 실행 환경까지 반영하는 데 한계가 있다. 본 글은 여러 구현 후보의 비용과 정확도를 비교해 실행 환경에 맞는 후보를 제공하는 수치 컴파일러 &lt;em&gt;Chassis&lt;/em&gt;를 소개한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;수치 계산은 속도와 정확도 사이의 시소 문제다. 빠른 계산은 부정확하고, 정확한 계산은 느리다. &lt;em&gt;Clang&lt;/em&gt; 같은 전통적 컴파일러는 실행 환경에 맞춘 성능 최적화에 강하지만 수치 정확도에는 제한적이다. 반면 &lt;em&gt;Herbie&lt;/em&gt; 같은 수치 컴파일러는 정확도에 집중하지만 실제 하드웨어나 라이브러리 특성은 충분히 반영하지 못한다.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;수치 계산에서는 속도와 정확도 사이의 상충(trade-off)을 고려하는 것이 중요하다. 그러나 기존 컴파일러는 속도와 정확도를 동시에 고려하면서, 실행 환경까지 반영하는 데 한계가 있다. 본 글은 여러 구현 후보의 비용과 정확도를 비교해 실행 환경에 맞는 후보를 제공하는 수치 컴파일러 &lt;em&gt;Chassis&lt;/em&gt;를 소개한다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;수치 계산은 속도와 정확도 사이의 시소 문제다. 빠른 계산은 부정확하고, 정확한 계산은 느리다. &lt;em&gt;Clang&lt;/em&gt; 같은 전통적 컴파일러는 실행 환경에 맞춘 성능 최적화에 강하지만 수치 정확도에는 제한적이다. 반면 &lt;em&gt;Herbie&lt;/em&gt; 같은 수치 컴파일러는 정확도에 집중하지만 실제 하드웨어나 라이브러리 특성은 충분히 반영하지 못한다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>컴파일러 최적화를 최적화하기</title>
-      <link>http://localhost:1313/posts/post5/</link>
+      <link>http://localhost:1313/posts/20260508/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post5/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;꼬마 최적화(peephole optmization)은 컴파일러 성능 향상에 중요한 역할을 하지만, 전역 최적에 도달하기 어렵다는 한계를 가진다. 이는 최적화 규칙의 적용 순서를 정해야 하는 순서 매기기 문제와, 새로운 규칙을 기존 시스템에 추가할 때 발생하는 복잡도에서 비롯된다. 본 글은 이러한 한계를 바탕으로 미래 꼬마 최적화가 나아갈 방향을 논한다. 그 핵심은 최적화 규칙의 자동 생성과 검증, 그리고 적용 순서의 효율적인 탐색이다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;본 글은 성숙한 컴파일러에서 신생 컴파일러로 꼬마 최적화를 이식하는 프로젝트인 &lt;em&gt;Transopt&lt;/em&gt;에서 출발한 질문이다. 앞으로의 컴파일러가 가질 꼬마 최적화는 어떤 모습이어야 할까?&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/20260508/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;꼬마 최적화(peephole optmization)은 컴파일러 성능 향상에 중요한 역할을 하지만, 전역 최적에 도달하기 어렵다는 한계를 가진다. 이는 최적화 규칙의 적용 순서를 정해야 하는 순서 매기기 문제와, 새로운 규칙을 기존 시스템에 추가할 때 발생하는 복잡도에서 비롯된다. 본 글은 이러한 한계를 바탕으로 미래 꼬마 최적화가 나아갈 방향을 논한다. 그 핵심은 최적화 규칙의 자동 생성과 검증, 그리고 적용 순서의 효율적인 탐색이다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;본 글은 성숙한 컴파일러에서 신생 컴파일러로 꼬마 최적화를 이식하는 프로젝트인 &lt;em&gt;Transopt&lt;/em&gt;에서 출발한 질문이다. 앞으로의 컴파일러가 가질 꼬마 최적화는 어떤 모습이어야 할까?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Peep into Peephole Optimization</title>
-      <link>http://localhost:1313/posts/post4/</link>
+      <link>http://localhost:1313/posts/20260403/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post4/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;This article discusses peephole optimizations through refinement, motivated by the &lt;em&gt;TransOpt&lt;/em&gt; project. The compositionality of refinement explains why local rewrites preserve correctness, as each transformation reduces the set of possible behaviors without introducing new ones. Building on this perspective, the relationship between local correctness and optimization is further considered, raising the question of how true global optimality can be achieved beyond local rewrites.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;TransOpt&lt;/em&gt; highlights a gap between mature compilers and newer ones. Mature compilers such as LLVM provide a rich set of peephole optimizations, while newer compilers like Cranelift still lack many of them. Transplanting peephole optimizations may seem straightforward, but it raises important questions: how can we ensure that these optimizations remain correct across different compilers? Why do small, local rewrites preserve the correctness of the entire program, and what potential issues can arise?&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/20260403/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;tldr&#34;&gt;TL;DR&lt;/h3&gt;&#xA;&lt;p&gt;This article discusses peephole optimizations through refinement, motivated by the &lt;em&gt;TransOpt&lt;/em&gt; project. The compositionality of refinement explains why local rewrites preserve correctness, as each transformation reduces the set of possible behaviors without introducing new ones. Building on this perspective, the relationship between local correctness and optimization is further considered, raising the question of how true global optimality can be achieved beyond local rewrites.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;TransOpt&lt;/em&gt; highlights a gap between mature compilers and newer ones. Mature compilers such as LLVM provide a rich set of peephole optimizations, while newer compilers like Cranelift still lack many of them. Transplanting peephole optimizations may seem straightforward, but it raises important questions: how can we ensure that these optimizations remain correct across different compilers? Why do small, local rewrites preserve the correctness of the entire program, and what potential issues can arise?&lt;/p&gt;</description>
     </item>
     <item>
       <title>슬기로운 연구자 생활</title>
-      <link>http://localhost:1313/posts/post3/</link>
+      <link>http://localhost:1313/posts/20260319/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post3/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;이 글은 연구의 목적이 논문이나 성과가 아니라 의미 있는 지식의 축적에 있음을 강조한다. 특히 컴퓨터 공학에서 연구는 신뢰를 기반으로 빠르게 발전해왔으며, 이러한 구조는 공동체의 협력을 전제로 한다. 리눅스 커널의 위선적 커밋(Hypocratic commit) 사건은 잘못된 연구 방식이 신뢰를 훼손하고 지식 축적의 기반을 약화시킬 수 있음을 보여준다. 이를 통해 연구의 가치는 결과뿐 아니라, 그 과정이 신뢰를 유지하고 강화하는 방향에 있는지에 의해 판단되어야 함을 논의한다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;연구자는 끊임없이 성과와 비교의 유혹에 직면하지만, 그럴수록 왜 연구를 선택했는지를 스스로 되물어야 한다. 연구를 계속한다는 것은 단순한 직업 선택이 아니라 어떤 가치를 따르겠다는 결정이기 때문이다. 따라서 연구자는 인용수와 같은 성과에 앞서, 자신이 무엇을 위해 연구하는지를 먼저 고민해야 하며, 성과는 좋은 연구의 결과로 따라오는 것임을 인식해야 한다.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/20260319/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;이 글은 연구의 목적이 논문이나 성과가 아니라 의미 있는 지식의 축적에 있음을 강조한다. 특히 컴퓨터 공학에서 연구는 신뢰를 기반으로 빠르게 발전해왔으며, 이러한 구조는 공동체의 협력을 전제로 한다. 리눅스 커널의 위선적 커밋(Hypocratic commit) 사건은 잘못된 연구 방식이 신뢰를 훼손하고 지식 축적의 기반을 약화시킬 수 있음을 보여준다. 이를 통해 연구의 가치는 결과뿐 아니라, 그 과정이 신뢰를 유지하고 강화하는 방향에 있는지에 의해 판단되어야 함을 논의한다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;연구자는 끊임없이 성과와 비교의 유혹에 직면하지만, 그럴수록 왜 연구를 선택했는지를 스스로 되물어야 한다. 연구를 계속한다는 것은 단순한 직업 선택이 아니라 어떤 가치를 따르겠다는 결정이기 때문이다. 따라서 연구자는 인용수와 같은 성과에 앞서, 자신이 무엇을 위해 연구하는지를 먼저 고민해야 하며, 성과는 좋은 연구의 결과로 따라오는 것임을 인식해야 한다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>정적 분석기의 정적은 정적임</title>
-      <link>http://localhost:1313/posts/post2/</link>
+      <link>http://localhost:1313/posts/20260313/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post2/</guid>
-      <description>&lt;p&gt;&lt;em&gt;본 글은 &amp;lt;CS524 Program Analysis&amp;gt;의 첫 번째 과제로 작성된 에세이이다.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;본 글은 정적 분석기(static analyzer)의 &amp;lsquo;정적&amp;rsquo;이 분석 방법의 성질일 뿐, 실제 기술의 작동 방식까지 정적이어서는 안 된다는 점을 논의한다. 산업 사례들은 정적 분석의 효과가 분석의 정교함뿐 아니라 개발자의 작업 흐름(workflow)과의 통합과 사용자와의 상호작용에 크게 좌우된다는 사실을 보여준다. 이를 바탕으로 본 글은 정적 분석을 포함한 소프트웨어 기술의 평가가 기존의 수학적 지표 중심 접근을 넘어 개발자의 이해 가능성, 수정 가능성, 신뢰성과 같은 인간 중심 요소를 함께 고려해야 한다고 주장한다. 궁극적으로 정적 분석기는 프로그램을 실행하지 않는다는 의미에서 정적이지만, 실제 개발 과정에서는 인간과 상호작용하며 능동적으로 개입하는 동적인 기술로 이해되어야 한다.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/20260313/</guid>
+      <description>&lt;p&gt;&lt;em&gt;본 글은 &amp;lt;CS524 Program Analysis&amp;gt;의 첫 번째 과제로 작성된 에세이이다.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;본 글은 정적 분석기(static analyzer)의 &amp;lsquo;정적&amp;rsquo;이 분석 방법의 성질일 뿐, 실제 기술의 작동 방식까지 정적이어서는 안 된다는 점을 논의한다. 산업 사례들은 정적 분석의 효과가 분석의 정교함뿐 아니라 개발자의 작업 흐름(workflow)과의 통합과 사용자와의 상호작용에 크게 좌우된다는 사실을 보여준다. 이를 바탕으로 본 글은 정적 분석을 포함한 소프트웨어 기술의 평가가 기존의 수학적 지표 중심 접근을 넘어 개발자의 이해 가능성, 수정 가능성, 신뢰성과 같은 인간 중심 요소를 함께 고려해야 한다고 주장한다. 궁극적으로 정적 분석기는 프로그램을 실행하지 않는다는 의미에서 정적이지만, 실제 개발 과정에서는 인간과 상호작용하며 능동적으로 개입하는 동적인 기술로 이해되어야 한다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>연구를 여행하는 히치하이커를 위한 안내서</title>
-      <link>http://localhost:1313/posts/post1/</link>
+      <link>http://localhost:1313/posts/20260305/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post1/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;이 글은 연구에서 중요한 것은 해답을 찾는 일이 아니라 의미 있는 질문을 발견하고 정의하는 일이라는 관점을 살펴본다. &amp;lsquo;당신과 당신의 연구&amp;rsquo;와 &amp;lsquo;은하수를 여행하는 히치하이커를 위한 안내서&amp;rsquo;를 통해, 연구의 첫 단추는 중요한 문제를 찾아가는 과정이라는 점을 생각해 본다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;본문&#34;&gt;본문&lt;/h3&gt;&#xA;&lt;p&gt;연구에서 중요한 것은 답보다 질문이다. 아무리 정교한 답이라도 그것이 의미 없는 질문에서 출발했다면 그 가치 역시 제한적일 수밖에 없다. 따라서 연구의 출발점은 정답을 찾는 과정보다도, 어떤 질문을 던져야 하는지를 고민하는 일에 가깝다.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/20260305/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;이 글은 연구에서 중요한 것은 해답을 찾는 일이 아니라 의미 있는 질문을 발견하고 정의하는 일이라는 관점을 살펴본다. &amp;lsquo;당신과 당신의 연구&amp;rsquo;와 &amp;lsquo;은하수를 여행하는 히치하이커를 위한 안내서&amp;rsquo;를 통해, 연구의 첫 단추는 중요한 문제를 찾아가는 과정이라는 점을 생각해 본다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;연구에서 중요한 것은 답보다 질문이다. 아무리 정교한 답이라도 그것이 의미 없는 질문에서 출발했다면 그 가치 역시 제한적일 수밖에 없다. 따라서 연구의 출발점은 정답을 찾는 과정보다도, 어떤 질문을 던져야 하는지를 고민하는 일에 가깝다.&lt;/p&gt;&#xA;&lt;p&gt;&amp;lsquo;은하수를 여행하는 히치하이커를 위한 안내서&amp;rsquo;에 등장하는 &amp;lsquo;$42$’는 &amp;lsquo;삶과 우주, 그리고 모든 것에 대한 궁극적인 답’으로 제시된다. 초지능 컴퓨터는 700만 년의 계산 끝에 이 숫자를 도출하지만, 정작 그 답을 나오게 한 질문은 아무도 모른다. 의도적으로 황당하게 설정된 답은, 질문이 부재한 답이 얼마나 공허할 수 있는지를 역설한다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
