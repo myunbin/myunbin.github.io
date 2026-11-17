@@ -7,21 +7,23 @@ draft: false
 ### International Publications  
 ---
 
-In progress :)
+- **Automated Transplantation of Peephole Optimizations**  (Under Revision)  
+  Bongjun Jang, **Hyunbin Kim**, Kihong Heo  
+  *International Conference on Software Engineering, 2027 (ICSE '27)*
 
 ### Domestic Publications  
 ---
 
 - **Online Approaches for Abelian Duplication in Strings : Design and Applications**  
-  Hyunbin Kim, Dajung Cho  
+  **Hyunbin Kim**, Dajung Cho  
   *Korea Conference on Software Engineering, 2025 (KCSE '25)*
 
 - **Algorithms for Searching Maximum-Length Abelian Duplications in Strings**  
-  Hyunbin Kim, Dajung Cho  
+  **Hyunbin Kim**, Dajung Cho  
   *KIISE Transactions on Computing Practices, 2025 (KTCP '25)*
 
 - **Abelian duplications on strings and string searching algorithms**  
-  Hyunbin Kim, Chiwook Ahn, Dajung Cho  
+  **Hyunbin Kim**, Chiwook Ahn, Dajung Cho  
   *Korea Computer Congress, 2024 (KCC '24) **(Excellent Paper Award)***
 
 <!-- - **Paper Title**  
