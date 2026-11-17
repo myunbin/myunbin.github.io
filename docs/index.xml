@@ -6,8 +6,15 @@
     <description>Recent content on Hyunbin Kim, 김현빈</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>두괄식 코드</title>
+      <link>http://localhost:1313/posts/20261110/</link>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20261110/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;h3 id=&#34;요약&#34;&gt;요약&lt;/h3&gt;&#xA;&lt;p&gt;AI는 효율적이고 훌륭한 코드를 작성하지만, 사람이 리뷰할 수 없을&#xA;정도로 많은 코드를 빠르게 생성한다.&#xA;그리고 성능과 안전성을 위한 처리&#xA;는 코드를 더욱 복잡하게 만드는 주된 요소이다.&#xA;본 글은 단순한 코드로&#xA;의도를 먼저 전달하는 두괄식 코드의 필요성을 논한다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;읽기 좋은 글의 기본은 두괄식이다. 특히 연구를 하는 사람의 입장에서는&#xA;더욱 그렇다. 핵심이 뒤늦게 나오거나 반전이 있는 글은 소설에서는 좋을지&#xA;몰라도, 정보를 전달해야 하는 글에는 적합하지 않다. 독자들의 집중력을 믿지&#xA;않기 때문에 기선제압을 하는 거랄까.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>트로이 목마 (The Trojan Horse)</title>
       <link>http://localhost:1313/posts/20261029/</link>
