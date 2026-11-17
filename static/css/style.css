@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem; /* 16px */
+  font-size: 1.125rem; /* 18px */
   margin: 2.5rem 0 0.75rem;
   color: var(--text);
   font-weight: 600;
@@ -81,7 +81,7 @@ h2:first-of-type {
 }
 
 h3 {
-  font-size: 0.875rem; /* 14px */
+  font-size: 0.9375rem; /* 15px */
   margin: 1rem 0 0.35rem;
   font-weight: 600;
 }
@@ -250,8 +250,8 @@ li {
 }
 
 /* 활동기한·연도만 박스 오른쪽 끝에 붙이기 ({{< date "Jan. 25 – Sep. 25" >}}) */
-.content > ul > li,
-.content > ol > li {
+.content > ul > li:has(.date-right),
+.content > ol > li:has(.date-right) {
   position: relative;
   padding-right: 14em;
 }
@@ -267,8 +267,8 @@ li {
 
 /* 모바일: 날짜 때문에 왼쪽 텍스트 영역이 좁아지지 않도록, 날짜만 다음 줄 오른쪽으로 */
 @media (max-width: 600px) {
-  .content > ul > li,
-  .content > ol > li {
+  .content > ul > li:has(.date-right),
+  .content > ol > li:has(.date-right) {
     padding-right: 0;
   }
   .date-right {

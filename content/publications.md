@@ -4,15 +4,9 @@ date: 2025-01-01
 draft: false
 ---
 
-### International Publications  
----
-
 - **Automated Transplantation of Peephole Optimizations**  (Under Revision)  
   Bongjun Jang, **Hyunbin Kim**, Kihong Heo  
   *International Conference on Software Engineering, 2027 (ICSE '27)*
-
-### Domestic Publications  
----
 
 - **Online Approaches for Abelian Duplication in Strings : Design and Applications**  
   **Hyunbin Kim**, Dajung Cho  
