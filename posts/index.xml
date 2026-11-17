@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/posts/</link><description>Recent content in Post on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>트로이 목마 (The Trojan Horse)</title><link>https://myunbin.github.io/posts/20261029/</link><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20261029/</guid><description>&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Post on Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/posts/</link><description>Recent content in Post on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>두괄식 코드</title><link>https://myunbin.github.io/posts/20261110/</link><pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20261110/</guid><description>&lt;blockquote&gt;
+&lt;h3 id="요약"&gt;요약&lt;/h3&gt;
+&lt;p&gt;AI는 효율적이고 훌륭한 코드를 작성하지만, 사람이 리뷰할 수 없을
+정도로 많은 코드를 빠르게 생성한다.
+그리고 성능과 안전성을 위한 처리
+는 코드를 더욱 복잡하게 만드는 주된 요소이다.
+본 글은 단순한 코드로
+의도를 먼저 전달하는 두괄식 코드의 필요성을 논한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;읽기 좋은 글의 기본은 두괄식이다. 특히 연구를 하는 사람의 입장에서는
+더욱 그렇다. 핵심이 뒤늦게 나오거나 반전이 있는 글은 소설에서는 좋을지
+몰라도, 정보를 전달해야 하는 글에는 적합하지 않다. 독자들의 집중력을 믿지
+않기 때문에 기선제압을 하는 거랄까.&lt;/p&gt;</description></item><item><title>트로이 목마 (The Trojan Horse)</title><link>https://myunbin.github.io/posts/20261029/</link><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20261029/</guid><description>&lt;blockquote&gt;
 &lt;h3 id="요약"&gt;요약&lt;/h3&gt;
 &lt;p&gt;학계는 서로의 선의를 믿고 거인의 어깨 위에 새로운 지식을 쌓아가는 곳이다.
 그러나 AI의 보급으로 그 믿음이 흔들리고 있다.

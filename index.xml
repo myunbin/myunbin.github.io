@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/</link><description>Recent content on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>트로이 목마 (The Trojan Horse)</title><link>https://myunbin.github.io/posts/20261029/</link><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20261029/</guid><description>&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hyunbin Kim, 김현빈</title><link>https://myunbin.github.io/</link><description>Recent content on Hyunbin Kim, 김현빈</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://myunbin.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>두괄식 코드</title><link>https://myunbin.github.io/posts/20261110/</link><pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20261110/</guid><description>&lt;blockquote&gt;
+&lt;h3 id="요약"&gt;요약&lt;/h3&gt;
+&lt;p&gt;AI는 효율적이고 훌륭한 코드를 작성하지만, 사람이 리뷰할 수 없을
+정도로 많은 코드를 빠르게 생성한다.
+그리고 성능과 안전성을 위한 처리
+는 코드를 더욱 복잡하게 만드는 주된 요소이다.
+본 글은 단순한 코드로
+의도를 먼저 전달하는 두괄식 코드의 필요성을 논한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;읽기 좋은 글의 기본은 두괄식이다. 특히 연구를 하는 사람의 입장에서는
+더욱 그렇다. 핵심이 뒤늦게 나오거나 반전이 있는 글은 소설에서는 좋을지
+몰라도, 정보를 전달해야 하는 글에는 적합하지 않다. 독자들의 집중력을 믿지
+않기 때문에 기선제압을 하는 거랄까.&lt;/p&gt;</description></item><item><title>트로이 목마 (The Trojan Horse)</title><link>https://myunbin.github.io/posts/20261029/</link><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/posts/20261029/</guid><description>&lt;blockquote&gt;
 &lt;h3 id="요약"&gt;요약&lt;/h3&gt;
 &lt;p&gt;학계는 서로의 선의를 믿고 거인의 어깨 위에 새로운 지식을 쌓아가는 곳이다.
 그러나 AI의 보급으로 그 믿음이 흔들리고 있다.
@@ -158,21 +170,25 @@ $$
 &lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Experience</title><link>https://myunbin.github.io/experience/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/experience/</guid><description/></item><item><title>Publications</title><link>https://myunbin.github.io/publications/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/publications/</guid><description>&lt;h3 id="international-publications"&gt;International Publications&lt;/h3&gt;
 &lt;hr&gt;
-&lt;p&gt;In progress :)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Automated Transplantation of Peephole Optimizations&lt;/strong&gt; (Under Revision)&lt;br&gt;
+Bongjun Jang, &lt;strong&gt;Hyunbin Kim&lt;/strong&gt;, Kihong Heo&lt;br&gt;
+&lt;em&gt;International Conference on Software Engineering, 2027 (ICSE &amp;lsquo;27)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="domestic-publications"&gt;Domestic Publications&lt;/h3&gt;
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Online Approaches for Abelian Duplication in Strings : Design and Applications&lt;/strong&gt;&lt;br&gt;
-Hyunbin Kim, Dajung Cho&lt;br&gt;
+&lt;strong&gt;Hyunbin Kim&lt;/strong&gt;, Dajung Cho&lt;br&gt;
 &lt;em&gt;Korea Conference on Software Engineering, 2025 (KCSE &amp;lsquo;25)&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Algorithms for Searching Maximum-Length Abelian Duplications in Strings&lt;/strong&gt;&lt;br&gt;
-Hyunbin Kim, Dajung Cho&lt;br&gt;
+&lt;strong&gt;Hyunbin Kim&lt;/strong&gt;, Dajung Cho&lt;br&gt;
 &lt;em&gt;KIISE Transactions on Computing Practices, 2025 (KTCP &amp;lsquo;25)&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Abelian duplications on strings and string searching algorithms&lt;/strong&gt;&lt;br&gt;
-Hyunbin Kim, Chiwook Ahn, Dajung Cho&lt;br&gt;
+&lt;strong&gt;Hyunbin Kim&lt;/strong&gt;, Chiwook Ahn, Dajung Cho&lt;br&gt;
 &lt;em&gt;Korea Computer Congress, 2024 (KCC &amp;lsquo;24) &lt;strong&gt;(Excellent Paper Award)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Research Interest</title><link>https://myunbin.github.io/research_interest/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://myunbin.github.io/research_interest/</guid><description>&lt;p&gt;Compiler Optimizations, Programming Languages, Algorithms&lt;/p&gt;</description></item></channel></rss>
